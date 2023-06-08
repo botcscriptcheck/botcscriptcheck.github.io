@@ -1,0 +1,15 @@
+:root {
+  --color-bg: #222222;
+  --color-text-main: #DDDDDD;
+  --color-primary: #FFFF00;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "HK Grotesk";
+  --font-family-header: "HK Grotesk";
+}
+
+body {
+  color: var(--color-text-main);
+  background-color: var(--color-bg);
+}

@@ -1,0 +1,221 @@
+[
+  {
+    "present": [["#extranightdeaths"]],
+    "note": "This script can have multiple night deaths"
+  },
+  {
+    "present": [["#failedexecutions"]],
+    "note": "This script can have failed executions"
+  },
+  {
+    "present": [["saint", "goblin", "boomdandy", "damsel", "fearmonger", "leviathan"]],
+    "note": "This script has alternate win/loss conditions"
+  },
+  {
+    "present": [["general", "heretic", "atheist", "leviathan"]],
+    "note": "This script is for confirmed/expert players and Storytellers"
+  },
+
+  {
+    "present": [["lunatic"], ["marionette"]],
+    "note": "The Marionette cannot \"think\" they are the Lunatic"
+  },
+
+  {
+    "count": {
+      "characters": [".townsfolk"],
+      "lt": 13
+    },
+    "error": "Less than 13 Townsfolk characters"
+  },
+  {
+    "missing": [["#droison"]],
+    "error": "No sources of droison"
+  },
+  {
+    "missing": [["#outsidercount"]],
+    "error": "No Outsider count modification"
+  },
+
+  {
+    "present": [["spy", "widow"], ["#musthide"]],
+    "error": "Heretic, Damsel, and Choirboy don't work with characters that can see the Grimoire"
+  },
+  {
+    "present": [["lil_monsta"], ["alchemist"]],
+    "count": {
+      "characters": [".minion"],
+      "lt": 5
+    },
+    "error": "Lil' Monsta and Alchemist require at least 5 Minions on the script, for base 3 Minions games"
+  },
+  {
+    "present": [["lleech"], ["goon"]],
+    "error": "If the Goon is picked by the Lleech, the Demon becomes invincible. Needs a house rule to work"
+  },
+  {
+    "present": [["al-hadikhia"], ["scarlet_woman"]],
+    "error": "A Scarlet Woman and Al-Hadikhia form an unbeatable combo, as the SW can always resurrect the original Al-Hadikhia every night"
+  },
+
+  {
+    "count": {
+      "characters": ["#extraevils"],
+      "gt": 1
+    },
+    "warning": "More than one character that can bring/become an extra evil"
+  },
+  {
+    "count": {
+      "characters": ["#extranightdeaths"],
+      "eq": 1
+    },
+    "warning": "Only one character that causes extra night deaths"
+  },
+  {
+    "count": {
+      "characters": ["#failedexecutions"],
+      "eq": 1
+    },
+    "warning": "Only one character that causes failed executions"
+  },
+  {
+    "count": {
+      "characters": ["#resurrection"],
+      "eq": 1
+    },
+    "warning": "Only one character that causes resurrection"
+  },
+  {
+    "count": {
+      "characters": ["#protection", "#nonightdeaths"],
+      "eq": 1
+    },
+    "warning": "Only one character that explains no night deaths (protection or lack of killing)"
+  },
+  {
+    "present": [["#extranightdeaths"]],
+    "missing": [["#protection"]],
+    "warning": "Extra night deaths without any protection roles"
+  },
+  {
+    "present": [[".minion"]],
+    "missing": [["#quietminions"]],
+    "warning": "Only loud Minions (Loud Minions cause events only they can explain, or out themselves)"
+  },
+  {
+    "missing": [
+      [
+        "fang_gu",
+        "godfather",
+        "drunk",
+        "lunatic",
+        "damsel",
+        "heretic",
+        "mutant",
+        "sweetheart",
+        "barber",
+        "klutz",
+        "moonhchild",
+        "goon",
+        "politician"
+      ]
+    ],
+    "warning": "No hidden Outsiders or reason for the Outsiders to hide"
+  },
+  {
+    "missing": [
+      [
+        "vigormortis",
+        "legion",
+        "imp",
+        "zombuul",
+        "poppy_grower",
+        "fang_gu",
+        "al-hadikhia",
+        "lil_monsta"
+      ]
+    ],
+    "warning": "No reason to distrust night deaths"
+  },
+  {
+    "missing": [["#poison"]],
+    "warning": "No evil-aligned droison characters"
+  },
+  {
+    "present": [["#surviveexecutions"]],
+    "missing": [["#preventexecutions"]],
+    "warning": "No evil-aligned reasons to survive executions"
+  },
+
+  {
+    "present": [["leviathan"], ["#alldrunker"]],
+    "warning": "Leviathan doesn't pair well with good-aligned droison characters"
+  },
+  {
+    "present": [
+      ["alchemist"],
+      [
+        "widow",
+        "spy",
+        "baron",
+        "mastermind",
+        "mezepheles",
+        "poisoner",
+        "scarlet_woman"
+      ]
+    ],
+    "warning": "Bad/Powerful Minions choices for the Alchemist"
+  },
+  {
+    "present": [["king"]],
+    "missing": [["choirboy"]],
+    "warning": "King with no Choirboy"
+  },
+  {
+    "present": [["damsel"]],
+    "missing": [["huntsman"]],
+    "warning": "Damsel with no Huntsman"
+  },
+  {
+    "present": [["virgin"]],
+    "warning": "Virgin is a hard-confirmed character"
+  },
+  {
+    "present": [["lleech"], ["golem", "lycanthrope", "moonchild"]],
+    "warning": "Good-aligned targeted killing roles are dangerous for a Lleech"
+  },
+  {
+    "present": [["heretic"], ["mezepheles"]],
+    "warning": "The Heretic can become evil and win the game"
+  },
+  {
+    "present": [["leviathan", "pukka"], ["heretic"]],
+    "warning": "The Leviathan and Pukka cannot kill themselves in case of a Heretic"
+  },
+  {
+    "present": [["storm_catcher"], ["#musthide", "magician"]],
+    "warning": "Certain characters cannot be stormcaught"
+  },
+  {
+    "present": [["saint"], ["godfather"]],
+    "warning": "Saint cannot be executed for the Godfather"
+  },
+  {
+    "present": [["engineer", "pit_hag"], ["fearmonger"]],
+    "warning": "If a Fearmonger is created mid-game, this can confirm the presence of a role change like Engineer or Pit-Hag. Getting chosen by the Preacher night one can also cause this"
+  },
+  {
+    "present": [["mezepheles"], ["al-hadikhia", "shabaloth"]],
+    "missing": [["spirit_of_ivory"]],
+    "warning": "The Al-Hadikhia and Shabaloth can resurrect the Mezepheles, causing another player to become evil. A Spirit of Ivory can help"
+  },
+  {
+    "present": [["#musthide", "magician"], ["evil_twin"]],
+    "warning": "Damsel, Heretic, Choirboy, and Magician cannot be the Good Twin"
+  },
+  {
+    "present": [["psychopath", "vizier"], ["town_crier"]],
+    "warning": "Known Minions like Psychopath and Vizier can pollute Town Crier information"
+  }
+]
