@@ -168,7 +168,13 @@
     "goon",
     "exorcist"
   ],
-  "#nonightdeaths": ["zombuul", "pukka", "po", "minstrel"],
+  "#nonightdeaths": [
+    "zombuul",
+    "pukka",
+    "po",
+    "minstrel",
+    "pit_hag"
+  ],
   "#extranightdeaths": [
     "grandmother",
     "gambler",
@@ -180,7 +186,8 @@
     "shabaloth",
     "po",
     "acrobat",
-    "legion"
+    "legion",
+    "pit_hag"
   ],
   "#resurrection": ["professor", "shabaloth", "al-hadikhia"],
   "#surviveexecutions": [
@@ -195,14 +202,15 @@
   ],
   "#failedexecutions": ["#surviveexecutions", "#preventexecutions"],
   "#madnessexecutions": ["cerenovus", "mutant"],
-  "#extraevils": [
+  "#startingextraevils": ["bounty_hunter"],
+  "#convertextraevils": [
     "fang_gu",
     "mezepheles",
-    "bounty_hunter",
     "cult_leader",
     "goon",
     "politician"
   ],
+  "#extraevils": ["#startingextraevils", "#convertextraevils"],
   "#musthide": ["heretic", "damsel", "choirboy"],
   "#quietminions": [
     "assassin",
