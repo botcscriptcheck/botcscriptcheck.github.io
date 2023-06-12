@@ -168,7 +168,13 @@
     "goon",
     "exorcist"
   ],
-  "#nonightdeaths": ["zombuul", "pukka", "po", "minstrel"],
+  "#nonightdeaths": [
+    "zombuul",
+    "pukka",
+    "po",
+    "minstrel",
+    "pit_hag"
+  ],
   "#extranightdeaths": [
     "grandmother",
     "gambler",
@@ -180,7 +186,8 @@
     "shabaloth",
     "po",
     "acrobat",
-    "legion"
+    "legion",
+    "pit_hag"
   ],
   "#resurrection": ["professor", "shabaloth", "al-hadikhia"],
   "#surviveexecutions": [
