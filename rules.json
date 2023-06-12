@@ -217,5 +217,9 @@
   {
     "present": [["psychopath", "vizier"], ["town_crier"]],
     "warning": "Known Minions like Psychopath and Vizier can pollute Town Crier information"
+  },
+  {
+    "present": [["vizier"], ["#convertextraevil"]],
+    "warning": "Vizier + converted evil: A good player can vote for everything the Vizier wants then be turned late in the game. These plays are very rarely fun."
   }
 ]
