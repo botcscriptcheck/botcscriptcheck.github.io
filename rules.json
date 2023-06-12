@@ -220,6 +220,6 @@
   },
   {
     "present": [["vizier"], ["#convertextraevils"]],
-    "warning": "Vizier + converted evil: A good player can vote for everything the Vizier wants then be turned late in the game. These plays are very rarely fun."
+    "warning": "A good player can vote on every execution for the Vizier and be converted later in the game."
   }
 ]
