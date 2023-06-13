@@ -123,7 +123,25 @@
     "vortox",
     "zombuul"
   ],
-  
+  ".traveller": [
+	"apprentice",
+	"barista",
+	"beggar",
+	"bishop",
+	"bone_collector",
+	"bureaucrat",
+	"butcher",
+	"deviant",
+	"gangster",
+	"gunslinger",
+	"harlot",
+	"judge",
+	"matron",
+	"scapegoat",
+	"thief",
+	"voudon",
+  ],
+	
   "#gooddrunker": [
     "drunk",
     "sweetheart",

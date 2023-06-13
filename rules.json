@@ -232,5 +232,12 @@
   {
     "present": [["vizier"], ["#convertextraevils"]],
     "warning": "A good player can vote on every execution for the Vizier and be converted later in the game."
+  },
+  {
+	"count": {
+	  "characters": [".traveller"],
+	  "lt": 4,
+	}
+	"warning": "Less than 4 recommended Travellers."
   }
 ]
