@@ -236,8 +236,8 @@
   {
 	"count": {
 	  "characters": [".traveller"],
-	  "lt": 4,
-	}
+	  "lt": 4
+	},
 	"warning": "Less than 4 recommended Travellers."
   }
 ]
