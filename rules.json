@@ -32,7 +32,7 @@
 	"count": {
 	  "characters": [".townsfolk"],
 	  "lt": 13
-	}
+	},
 	"error": "Less than 13 Townsfolk."
   },
   {
