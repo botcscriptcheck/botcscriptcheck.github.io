@@ -12,4 +12,5 @@
 body {
   color: var(--color-text-main);
   background-color: var(--color-bg);
+  font-family: 'Goudy Old Style', sans-serif;
 }
