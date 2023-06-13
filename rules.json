@@ -9,10 +9,10 @@
   },
   {
     "present": [["saint", "goblin", "boomdandy", "damsel", "fearmonger", "leviathan"]],
-    "note": "This script has alternate win/loss conditions"
+    "note": "This script has alternate win/loss conditions."
   },
   {
-    "present": [["general", "heretic", "atheist", "leviathan"]],
+    "present": [["general", "heretic", "atheist", "leviathan", "legion"]],
     "note": "This script is for confirmed/expert players and Storytellers."
   },
 
@@ -20,7 +20,10 @@
     "present": [["lunatic"], ["marionette"]],
     "note": "The Marionette cannot \"think\" they are the Lunatic."
   },
-
+  {
+	"present": [["damsel"], ["huntsman"], ["marionette"]],
+	"note": "The Marionette cannot be the Damsel added by the Huntsman."
+  },
   {
     "count": {
       "characters": [".townsfolk", ".outsider", ".minion", ".demon"],
