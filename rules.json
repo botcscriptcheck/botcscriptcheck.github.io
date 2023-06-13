@@ -25,6 +25,10 @@
 	"warning": "The Marionette cannot be the Damsel added by the Huntsman."
   },
   {
+	"present": [["king"], ["choirboy"], ["marionette"]],
+	"warning": "The Marionette cannot be the King added by the Choirboy"
+  },
+  {
     "count": {
       "characters": [".townsfolk", ".outsider", ".minion", ".demon"],
       "lt": 11
@@ -111,7 +115,7 @@
   {
     "present": [[".minion"]],
     "missing": [["#quietminions"]],
-    "warning": "Only loud Minions. (Loud Minions cause events only they can explain, or out themselves)"
+    "warning": "No Quiet Minions. Quiet Minions can't be confirmed until the game ends."
   },
   {
     "missing": [
@@ -234,13 +238,6 @@
     "warning": "A good player can vote on every execution for the Vizier and be converted later in the game."
   },
   {
-	"count": {
-	  "characters": [".traveller"],
-	  "lt": 5
-	},
-	"warning": "Less than 5 recommended Travellers."
-  },
-  {
 	"present": [["alchemist"], ["pit-hag"]],
 	"warning": "An Alchemist Pit-Hag can cause the game to end from night 2 onwards."
   },
@@ -249,6 +246,6 @@
 	  "characters": [".townsfolk", ".outsider", ".minion", ".demon"],
 	  "gt": 25
 	},
-	"warning": "More than 25 characters. May cause issues with visibility."
+	"error": "More than 25 characters. May cause issues with visibility."
   }
 ]
