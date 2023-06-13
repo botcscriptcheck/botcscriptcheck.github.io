@@ -243,5 +243,12 @@
   {
 	"present": [["alchemist"], ["pit-hag"]],
 	"warning": "An Alchemist Pit-Hag can cause the game to end from night 2 onwards."
+  },
+  {
+	"count": {
+	  "characters": [".townsfolk", ".outsider", ".minion", ".demon"],
+	  "gt": 25,
+	}
+	"warning": "More than 25 characters. May cause issues with visibility."
   }
 ]
