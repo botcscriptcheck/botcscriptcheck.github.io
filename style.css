@@ -9,6 +9,8 @@
   --font-family-header: "HK Grotesk";
 }
 
+@import url('https://fonts.cdnfonts.com/css/goudy-old-style');
+
 body {
   color: var(--color-text-main);
   background-color: var(--color-bg);
