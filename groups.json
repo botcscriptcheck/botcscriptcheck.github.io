@@ -31,7 +31,6 @@
     "investigator",
     "juggler",
     "king",
-    "knight",
     "librarian",
     "lycanthrope",
     "magician",
@@ -56,12 +55,13 @@
     "slayer",
     "snake_charmer",
     "soldier",
-    "steward",
     "tea_lady",
     "town_crier",
     "undertaker",
     "virgin",
     "washerwoman",
+    "steward",
+    "knight"
   ],
   ".outsider": [
     "acrobat",
