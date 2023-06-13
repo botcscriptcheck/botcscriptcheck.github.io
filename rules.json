@@ -18,11 +18,11 @@
 
   {
     "present": [["lunatic"], ["marionette"]],
-    "note": "The Marionette cannot \"think\" they are the Lunatic."
+    "warning": "The Marionette cannot \"think\" they are the Lunatic."
   },
   {
 	"present": [["damsel"], ["huntsman"], ["marionette"]],
-	"note": "The Marionette cannot be the Damsel added by the Huntsman."
+	"warning": "The Marionette cannot be the Damsel added by the Huntsman."
   },
   {
     "count": {
