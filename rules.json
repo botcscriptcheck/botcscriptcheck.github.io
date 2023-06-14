@@ -247,5 +247,9 @@
 	  "gt": 25
 	},
 	"error": "More than 25 characters. May cause issues with visibility."
+  },
+  {
+	"present": [["baron"], ["#outsidercount"]],
+	"warning": "Baron and other Outsider Count modification scripts may require more than 4 outsiders."
   }
 ]
