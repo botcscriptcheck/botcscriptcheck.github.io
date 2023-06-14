@@ -249,7 +249,11 @@
 	"error": "More than 25 characters. May cause issues with visibility."
   },
   {
-	"present": [["baron"], ["#outsidercount"]],
-	"warning": "Baron and other Outsider Count modification scripts may require more than 4 outsiders."
+	"present": [["baron"], ["fang_gu", "godfather", "balloonist", "huntsman", "sentinel"]],
+	"count": {
+	  "characters": [".outsider"],
+	  "lt": 5
+	},
+	"warning": "Scripts that have up to 3 extra Outsiders require 5 or more Outsiders."
   }
 ]
