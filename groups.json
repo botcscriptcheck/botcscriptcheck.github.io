@@ -244,5 +244,12 @@
     "spy",
 	"boomdandy",
 	"goblin"
+  ],
+  "#ondeathminions": [
+    "boomdandy",
+	"goblin",
+	"psychopath",
+	"vizier",
+	"fearmonger"
   ]
 }

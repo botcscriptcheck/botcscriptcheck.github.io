@@ -255,5 +255,13 @@
 	  "lt": 5
 	},
 	"warning": "Scripts that have up to 3 extra Outsiders require 5 or more Outsiders."
+  },
+  {
+	"present": [["minstrel"], ["#ondeathminions"],
+	"warning": "The Minstrel has bad interactions with one or more Minions."
+  },
+  {
+	"present": [["assassin"], ["goon"]],
+	"warning": "Assassin has a bad interaction with the Goon."
   }
 ]
