@@ -15,19 +15,6 @@
     "present": [["general", "heretic", "atheist", "leviathan", "legion"]],
     "note": "This script is for confirmed/expert players and Storytellers."
   },
-
-  {
-    "present": [["lunatic"], ["marionette"]],
-    "warning": "The Marionette cannot \"think\" they are the Lunatic."
-  },
-  {
-	"present": [["damsel"], ["huntsman"], ["marionette"]],
-	"warning": "The Marionette cannot be the Damsel added by the Huntsman."
-  },
-  {
-	"present": [["king"], ["choirboy"], ["marionette"]],
-	"warning": "The Marionette cannot be the King added by the Choirboy"
-  },
   {
     "count": {
       "characters": [".townsfolk", ".outsider", ".minion", ".demon"],
@@ -38,7 +25,8 @@
   {
 	"count": {
 	  "characters": [".townsfolk"],
-	  "lt": 13
+	  "lt": 13,
+	  "gt": 6
 	},
 	"error": "Less than 13 Townsfolk."
   },
@@ -71,7 +59,13 @@
     "present": [["al-hadikhia"], ["scarlet_woman"]],
     "error": "A Scarlet Woman and Al-Hadikhia form an unbeatable combo."
   },
-
+  {
+	"count": {
+	  "characters": [".townsfolk", ".outsider", ".minion", ".demon"],
+	  "gt": 25
+	},
+	"warning": "More than 25 characters. May cause issues with visibility."
+  },
   {
     "count": {
       "characters": ["#extraevils"],
@@ -242,13 +236,6 @@
 	"warning": "An Alchemist Pit-Hag can cause the game to end from night 2 onwards."
   },
   {
-	"count": {
-	  "characters": [".townsfolk", ".outsider", ".minion", ".demon"],
-	  "gt": 25
-	},
-	"error": "More than 25 characters. May cause issues with visibility."
-  },
-  {
 	"present": [["baron"], ["fang_gu", "godfather", "balloonist", "huntsman", "sentinel"]],
 	"count": {
 	  "characters": [".outsider"],
@@ -267,5 +254,17 @@
   {
 	"present": [["vigormortis"], ["poisoner"], ["poppy_grower"]],
 	"warning": "Vigormortis killed Poisoner in a Poppy Grower game may poison the Vigormortis, creating an infinite poison loop."
-  }
+  },
+    {
+    "present": [["lunatic"], ["marionette"]],
+    "warning": "The Marionette cannot \"think\" they are the Lunatic."
+  },
+  {
+	"present": [["damsel"], ["huntsman"], ["marionette"]],
+	"warning": "The Marionette cannot be the Damsel added by the Huntsman."
+  },
+  {
+	"present": [["king"], ["choirboy"], ["marionette"]],
+	"warning": "The Marionette cannot be the King added by the Choirboy"
+  },
 ]
