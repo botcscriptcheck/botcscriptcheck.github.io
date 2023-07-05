@@ -23,12 +23,19 @@
     "error": "Less than 11 characters. Script can not be used for Teensyville games."
   },
   {
-	"count": {
-	  "characters": [".townsfolk"],
-	  "lt": 13,
-	  "gt": 6
-	},
-	"error": "Less than 13 Townsfolk."
+    "count": {
+      "characters": [".townsfolk"],
+      "lt": 13,
+      "gt": 6
+    },
+    "error": "Less than 13 Townsfolk."
+  },
+  {
+    "count": {
+      "characters": [".demon"],
+      "lt": 1
+    },
+    "error": "No Demons."
   },
   {
     "missing": [["#droison"]],
@@ -68,6 +75,28 @@
   },
   {
     "count": {
+      "characters": [".townsfolk", ".outsider", ".minion", ".demon"],
+      "gt": 16
+    },
+    "count": {
+      "characters": [".outsider"],
+      "lt": 4
+    },
+    "warning": "Fewer than 4 outsiders."
+  },
+  {
+    "count": {
+      "characters": [".townsfolk", ".outsider", ".minion", ".demon"],
+      "gt": 16
+    },
+    "count": {
+      "characters": [".minion"],
+      "lt": 4
+    },
+    "warning": "Fewer than 4 minions."
+  },
+  {
+    "count": {
       "characters": ["#extraevils"],
       "gt": 1
     },
@@ -78,6 +107,7 @@
       "characters": ["#extranightdeaths"],
       "eq": 1
     },
+    "missing": [["#coversextranightdeaths"]],
     "warning": "Only one character that causes extra night deaths."
   },
   {
