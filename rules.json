@@ -242,6 +242,7 @@
   },
   {
     "present": [["engineer", "pit_hag", "preacher"], ["fearmonger"]],
+	"missing": ["droison"],
     "warning": "Fearmonger announcements mid-game can confirm a role change character or a Preacher."
   },
   {
