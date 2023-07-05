@@ -90,7 +90,7 @@
       "gt": 16
     },
     "count": {
-      "characters": [".minions"],
+      "characters": [".minion"],
       "lt": 4
     },
     "warning": "Fewer than 4 minions."
