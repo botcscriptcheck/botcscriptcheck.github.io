@@ -2,10 +2,10 @@ const input = document.getElementById("scriptUpload");
 const output = document.getElementById("returnList");
 
 var rules = [];
-window.fetch("/rules.json").then(x => { console.log(x); return x.json() }).then(x => rules = x);
+window.fetch("./rules.json").then(x => { console.log(x); return x.json() }).then(x => rules = x);
 
 var groups = {};
-window.fetch("/groups.json").then(x => x.json()).then(x => groups = x);
+window.fetch("./groups.json").then(x => x.json()).then(x => groups = x);
 
 input.onchange = (evt) => {
   console.log(rules);
