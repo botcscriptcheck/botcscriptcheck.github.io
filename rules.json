@@ -297,5 +297,5 @@
   {
 	"present": [["king"], ["choirboy"], ["marionette"]],
 	"warning": "The Marionette cannot be the King added by the Choirboy"
-  },
+  }
 ]
