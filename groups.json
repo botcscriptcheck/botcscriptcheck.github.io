@@ -105,7 +105,8 @@
     "widow",
     "witch",
     "organ_grinder",
-    "vizier"
+    "vizier",
+	"harpy"
   ],
   ".demon": [
     "al-hadikhia",
@@ -254,5 +255,11 @@
 	"psychopath",
 	"vizier",
 	"fearmonger"
+  ],
+  "#madness": [
+    "pixie",
+	"cerenovus",
+	"mutant",
+	"harpy"
   ]
 }
