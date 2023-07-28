@@ -8,7 +8,7 @@
     "note": "This script can have failed executions."
   },
   {
-    "present": ["#winloss"]],
+    "present": [["#winloss"]],
     "note": "This script has alternate win/loss conditions."
   },
   {
