@@ -78,6 +78,7 @@
     "moonchild",
     "mutant",
     "politician",
+	"puzzlemaster",
     "recluse",
     "saint",
     "snitch",
@@ -97,7 +98,7 @@
     "marionette",
     "mastermind",
     "mezepheles",
-    "pit_hag",
+    "pit-hag",
     "poisoner",
     "psychopath",
     "scarlet_woman",
@@ -261,5 +262,20 @@
 	"cerenovus",
 	"mutant",
 	"harpy"
+  ],
+  "#winloss": [
+    "mastermind",
+	"vortox",
+	"klutz",
+	"mayor",
+	"evil_twin",
+	"atheist",
+	"cult_leader",
+	"damsel",
+	"goblin",
+	"fearmonger",
+	"saint",
+	"leviathan",
+	"boomdandy",
   ]
 }

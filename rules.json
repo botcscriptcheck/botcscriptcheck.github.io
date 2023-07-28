@@ -8,7 +8,7 @@
     "note": "This script can have failed executions."
   },
   {
-    "present": [["saint", "goblin", "boomdandy", "damsel", "fearmonger", "leviathan"]],
+    "present": ["#winloss"]],
     "note": "This script has alternate win/loss conditions."
   },
   {
