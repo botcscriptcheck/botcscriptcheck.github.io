@@ -203,7 +203,9 @@
         "poisoner",
         "scarlet_woman",
 		"marionette",
-		"scarletwoman"
+		"scarletwoman",
+		"pit-hag",
+		"pithag"
       ]
     ],
     "warning": "Bad/Powerful Minions choices for the Alchemist."
@@ -263,10 +265,6 @@
   {
     "present": [["vizier"], ["#convertextraevils"]],
     "warning": "A good player can vote on every execution for the Vizier and be converted later in the game."
-  },
-  {
-	"present": [["alchemist"], ["pit-hag", "pithag"]],
-	"warning": "An Alchemist Pit-Hag can cause the game to end from night 2 onwards."
   },
   {
 	"present": [["baron"], ["fang_gu", "godfather", "balloonist", "huntsman", "sentinel", "fanggu"]],
