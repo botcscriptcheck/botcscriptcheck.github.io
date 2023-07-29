@@ -279,10 +279,6 @@
 	"warning": "The Minstrel has bad interactions with one or more Minions."
   },
   {
-	"present": [["assassin"], ["goon"]],
-	"warning": "Assassin has a bad interaction with the Goon."
-  },
-  {
 	"present": [["vigormortis"], ["poisoner"], ["poppy_grower", "poppygrower"]],
 	"warning": "Vigormortis killed Poisoner in a Poppy Grower game may poison the Vigormortis, creating an infinite poison loop."
   },
