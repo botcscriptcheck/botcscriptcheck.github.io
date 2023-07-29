@@ -62,7 +62,15 @@
     "virgin",
     "washerwoman",
     "steward",
-    "knight"
+    "knight",
+	"bountyhunter",
+	"cultleader",
+	"highpriestess",
+	"poppygrower",
+	"snakecharmer",
+	"tealady",
+	"towncrier",
+	"fortuneteller"
   ],
   ".outsider": [
     "acrobat",
@@ -107,7 +115,12 @@
     "witch",
     "organ_grinder",
     "vizier",
-	"harpy"
+	"harpy",
+	"scarletwoman",
+	"devilsadvocate",
+	"organgrinder",
+	"pithag",
+	"eviltwin"
   ],
   ".demon": [
     "al-hadikhia",
@@ -124,7 +137,11 @@
     "shabaloth",
     "vigormortis",
     "vortox",
-    "zombuul"
+    "zombuul",
+	"alhadikhia",
+	"fanggu",
+	"nodashii",
+	"lilmonsta"
   ],
   ".traveller": [
 	"apprentice",
@@ -142,7 +159,8 @@
 	"matron",
 	"scapegoat",
 	"thief",
-	"voudon"
+	"voudon",
+	"bonecollector"
   ],
 	
   "#gooddrunker": [
@@ -166,7 +184,8 @@
     "no_dashii",
     "vigormortis",
     "widow",
-    "lleech"
+    "lleech",
+	"nodashii"
   ],
   "#droison": ["#drunk", "#poison"],
   "#outsidercount": [
@@ -176,7 +195,8 @@
     "godfather",
     "balloonist",
     "huntsman",
-    "sentinel"
+    "sentinel",
+	"fanggu"
   ],
   "#protection": [
     "monk",
@@ -187,14 +207,16 @@
     "tea_lady",
     "lycanthrope",
     "goon",
-    "exorcist"
+    "exorcist",
+	"tealady"
   ],
   "#nonightdeaths": [
     "zombuul",
     "pukka",
     "po",
     "minstrel",
-    "pit_hag"
+    "pit-hag",
+	"pithag",
   ],
   "#extranightdeaths": [
     "grandmother",
@@ -207,31 +229,36 @@
     "shabaloth",
     "po",
     "acrobat",
-    "pit_hag"
+    "pit-hag",
+	"pithag"
   ],
   "#coversextranightdeaths": [
     "legion"
   ],
-  "#resurrection": ["professor", "shabaloth", "al-hadikhia"],
+  "#resurrection": ["professor", "shabaloth", "al-hadikhia", "alhadikhia"],
   "#surviveexecutions": [
     "pacifist",
     "fool",
     "sailor",
-    "tea_lady"
+    "tea_lady",
+	"tealady"
   ],
   "#preventexecutions": [
     "devils_advocate",
-    "lleech"
+    "lleech",
+	"devilsadvocate"
   ],
   "#failedexecutions": ["#surviveexecutions", "#preventexecutions"],
   "#madnessexecutions": ["cerenovus", "mutant"],
-  "#startingextraevils": ["bounty_hunter"],
+  "#startingextraevils": ["bounty_hunter", "bountyhunter"],
   "#convertextraevils": [
     "fang_gu",
     "mezepheles",
     "cult_leader",
     "goon",
-    "politician"
+    "politician",
+	"fanggu",
+	"cultleader"
   ],
   "#extraevils": ["#startingextraevils", "#convertextraevils"],
   "#musthide": ["heretic", "damsel", "choirboy"],
@@ -243,12 +270,15 @@
     "mastermind",
     "marionette",
     "mezepheles",
-    "pit_hag",
+    "pit-hag",
     "poisoner",
     "scarlet_woman",
     "spy",
 	"boomdandy",
-	"goblin"
+	"goblin",
+	"devilsadvocate",
+	"pithag",
+	"scarletwoman"
   ],
   "#ondeathminions": [
     "boomdandy",
@@ -276,6 +306,8 @@
 	"fearmonger",
 	"saint",
 	"leviathan",
-	"boomdandy"
+	"boomdandy",
+	"eviltwin",
+	"cultleader"
   ]
 }

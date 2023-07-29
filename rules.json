@@ -51,7 +51,7 @@
     "error": "Heretic, Damsel, and Choirboy don't work with characters that can see the Grimoire."
   },
   {
-    "present": [["lil_monsta"], ["alchemist"]],
+    "present": [["lil_monsta", "lilmonsta"], ["alchemist"]],
     "count": {
       "characters": [".minion"],
       "lt": 5
@@ -61,10 +61,6 @@
   {
     "present": [["lleech"], ["goon"]],
     "error": "If the Goon is picked by the Lleech, the Demon becomes invincible."
-  },
-  {
-    "present": [["al-hadikhia"], ["scarlet_woman"]],
-    "error": "A Scarlet Woman and Al-Hadikhia form an unbeatable combo."
   },
   {
 	"count": {
@@ -156,7 +152,8 @@
         "klutz",
         "moonhchild",
         "goon",
-        "politician"
+        "politician",
+		"fanggu"
       ]
     ],
     "warning": "No hidden Outsiders or reason for the Outsiders to hide."
@@ -171,7 +168,11 @@
         "poppy_grower",
         "fang_gu",
         "al-hadikhia",
-        "lil_monsta"
+        "lil_monsta",
+		"poppygrower",
+		"fanggu",
+		"lilmonsta",
+		"alhadikhia"
       ]
     ],
     "warning": "No reason to distrust night deaths."
@@ -201,7 +202,8 @@
         "mezepheles",
         "poisoner",
         "scarlet_woman",
-		"marionette"
+		"marionette",
+		"scarletwoman"
       ]
     ],
     "warning": "Bad/Powerful Minions choices for the Alchemist."
@@ -233,7 +235,7 @@
     "warning": "The Leviathan and Pukka cannot kill themselves in case of a Heretic."
   },
   {
-    "present": [["storm_catcher"], ["#musthide", "magician"]],
+    "present": [["storm_catcher", "stormcatcher"], ["#musthide", "magician"]],
     "warning": "Certain characters cannot be stormcaught."
   },
   {
@@ -241,21 +243,21 @@
     "warning": "Saint cannot be executed for the Godfather."
   },
   {
-    "present": [["engineer", "pit_hag", "preacher"], ["fearmonger"]],
+    "present": [["engineer", "pit_hag", "pithag", "preacher"], ["fearmonger"]],
 	"missing": ["droison"],
     "warning": "Fearmonger announcements mid-game can confirm a role change character or a Preacher."
   },
   {
     "present": [["mezepheles"], ["al-hadikhia", "shabaloth"]],
-    "missing": [["spirit_of_ivory"]],
+    "missing": [["spirit_of_ivory", "spiritofivory"]],
     "warning": "The Al-Hadikhia and Shabaloth can resurrect the Mezepheles, causing another player to become evil. A Spirit of Ivory can help."
   },
   {
-    "present": [["#musthide", "magician"], ["evil_twin"]],
+    "present": [["#musthide", "magician"], ["evil_twin", "eviltwin"]],
     "warning": "Damsel, Heretic, Choirboy, and Magician cannot be the Good Twin."
   },
   {
-    "present": [["psychopath", "vizier"], ["town_crier"]],
+    "present": [["psychopath", "vizier"], ["town_crier", "towncrier"]],
     "warning": "Known Minions like Psychopath and Vizier can pollute Town Crier information."
   },
   {
@@ -263,11 +265,11 @@
     "warning": "A good player can vote on every execution for the Vizier and be converted later in the game."
   },
   {
-	"present": [["alchemist"], ["pit-hag"]],
+	"present": [["alchemist"], ["pit-hag", "pithag"]],
 	"warning": "An Alchemist Pit-Hag can cause the game to end from night 2 onwards."
   },
   {
-	"present": [["baron"], ["fang_gu", "godfather", "balloonist", "huntsman", "sentinel"]],
+	"present": [["baron"], ["fang_gu", "godfather", "balloonist", "huntsman", "sentinel", "fanggu"]],
 	"count": {
 	  "characters": [".outsider"],
 	  "lt": 5
@@ -283,7 +285,7 @@
 	"warning": "Assassin has a bad interaction with the Goon."
   },
   {
-	"present": [["vigormortis"], ["poisoner"], ["poppy_grower"]],
+	"present": [["vigormortis"], ["poisoner"], ["poppy_grower", "poppygrower"]],
 	"warning": "Vigormortis killed Poisoner in a Poppy Grower game may poison the Vigormortis, creating an infinite poison loop."
   },
     {
