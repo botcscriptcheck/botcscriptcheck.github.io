@@ -96,6 +96,7 @@
       "characters": ["#extraevils"],
       "gt": 1
     },
+	"missing": ["spirit_of_ivory", "spiritofivory"],
     "warning": "More than one character that can bring/become an extra evil."
   },
   {
@@ -252,7 +253,7 @@
   {
     "present": [["mezepheles"], ["al-hadikhia", "shabaloth"]],
     "missing": [["spirit_of_ivory", "spiritofivory"]],
-    "warning": "The Al-Hadikhia and Shabaloth can resurrect the Mezepheles, causing another player to become evil. A Spirit of Ivory can help."
+    "warning": "The Mezepheles may be resurrected, causing another player to become evil."
   },
   {
     "present": [["#musthide", "magician"], ["evil_twin", "eviltwin"]],
@@ -282,7 +283,7 @@
 	"present": [["vigormortis"], ["poisoner"], ["poppy_grower", "poppygrower"]],
 	"warning": "Vigormortis killed Poisoner in a Poppy Grower game may poison the Vigormortis, creating an infinite poison loop."
   },
-    {
+  {
     "present": [["lunatic"], ["marionette"]],
     "warning": "The Marionette cannot \"think\" they are the Lunatic."
   },
