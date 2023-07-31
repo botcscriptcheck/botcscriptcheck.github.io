@@ -282,7 +282,7 @@
 	"present": [["vigormortis"], ["poisoner"], ["poppy_grower", "poppygrower"]],
 	"warning": "Vigormortis killed Poisoner in a Poppy Grower game may poison the Vigormortis, creating an infinite poison loop."
   },
-    {
+  {
     "present": [["lunatic"], ["marionette"]],
     "warning": "The Marionette cannot \"think\" they are the Lunatic."
   },
@@ -293,5 +293,9 @@
   {
 	"present": [["king"], ["choirboy"], ["marionette"]],
 	"warning": "The Marionette cannot be the King added by the Choirboy"
+  },
+  {
+	"present": [["lycanthrope"], ["ravenkeeper"]],
+	"warning": "The Lycanthrope can exploit the Ravenkeeper's ability"
   }
 ]
