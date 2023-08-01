@@ -309,5 +309,9 @@
 	"boomdandy",
 	"eviltwin",
 	"cultleader"
+  ],
+  "#onnightdeath": [
+	"ravenkeeper",
+	"farmer"
   ]
 }

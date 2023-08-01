@@ -51,16 +51,12 @@
     "error": "Heretic, Damsel, and Choirboy don't work with characters that can see the Grimoire."
   },
   {
-    "present": [["lil_monsta", "lilmonsta"], ["alchemist"]],
+    "present": [["lil_monsta", "lilmonsta"]],
     "count": {
       "characters": [".minion"],
       "lt": 5
     },
-    "error": "Lil' Monsta and Alchemist require at least 5 Minions on the script, for base 3 Minions games"
-  },
-  {
-    "present": [["lleech"], ["goon"]],
-    "error": "If the Goon is picked by the Lleech, the Demon becomes invincible."
+    "warning": "Scripts with Lil' Monsta are recommended to have at least 5 Minions, for base 3 Minion games"
   },
   {
 	"count": {
@@ -278,14 +274,6 @@
   {
 	"present": [["minstrel"], ["#ondeathminions"]],
 	"warning": "The Minstrel has bad interactions with one or more Minions."
-  },
-  {
-	"present": [["vigormortis"], ["poisoner"], ["poppy_grower", "poppygrower"]],
-	"warning": "Vigormortis killed Poisoner in a Poppy Grower game may poison the Vigormortis, creating an infinite poison loop."
-  },
-  {
-    "present": [["lunatic"], ["marionette"]],
-    "warning": "The Marionette cannot \"think\" they are the Lunatic."
   },
   {
 	"present": [["damsel"], ["huntsman"], ["marionette"]],
