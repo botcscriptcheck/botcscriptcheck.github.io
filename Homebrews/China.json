@@ -1,0 +1,588 @@
+[
+  {
+    "id": "_meta",
+    "name": "Dye - The Clock Tower Mystery",
+    "logo": "https://www.bloodstar.xyz/p/leotheleopardnz/China/_meta.png",
+    "almanac": "https://www.bloodstar.xyz/p/leotheleopardnz/China/almanac.html"
+  },
+  {
+    "id": "enlightenedone_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/enlightenedone_china.png",
+    "remindersGlobal": [
+      "Is The Enlightened One"
+    ],
+    "setup": true,
+    "name": "Enlightened One",
+    "team": "townsfolk",
+	"special": [
+	{
+		"type":"selection",
+		"name":"bag-disabled"
+	}
+	],
+    "ability": "You think you are an Outsider, but you are not. If an evil player's ability affects you, you become a not-in-play Townsfolk until dusk."
+  },
+  {
+    "id": "judge_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/judge_china.png",
+    "otherNightReminder": "Show the Judge the player marked with the Nominated Today reminder, then replace it with the Already Nominated reminder. :reminder: :reminder:",
+    "reminders": [
+      "Nominated Today",
+      "Already Nominated",
+      "Already Nominated",
+      "Already Nominated",
+      "Already Nominated",
+      "Already Nominated",
+      "Already Nominated",
+      "Already Nominated",
+      "Already Nominated",
+      "Already Nominated",
+      "Already Nominated",
+      "Already Nominated",
+      "Already Nominated",
+      "Already Nominated",
+      "Already Nominated"
+    ],
+    "name": "Judge",
+    "team": "townsfolk",
+    "ability": "When you nominated a player for the first time, learn their role that night. Outsiders might register as Minions or Demons to your ability.",
+    "otherNight": 23
+  },
+  {
+    "id": "watcher_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/watcher_china.png",
+    "otherNightReminder": "The Watcher will give a number. :reminder: :reminder: If a player marked with the Watcher's Vigilant reminder token dies, the Watcher is the only player who can die tonight.",
+    "reminders": [
+      "Vigilant",
+      "Vigilant",
+      "Dead"
+    ],
+    "name": "Watcher",
+    "team": "townsfolk",
+    "ability": "Each Night*, guesf the distance from you of the first player to die tonight. If correct, nobody will die tonight, except you might.",
+    "otherNight": 9
+  },
+  {
+    "id": "fengshuimaster_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/fengshuimaster_china.png",
+    "otherNightReminder": "The Feng Shui Master might pick 2 players. :reminder: :reminder: The 1st learns if the Demon is closer or further away from the other.",
+    "reminders": [
+      "No Ability",
+      "1st",
+      "2nd"
+    ],
+    "name": "Feng Shui Master",
+    "team": "townsfolk",
+    "ability": "Once per game, at night*, pick 2 players (not yourself): 1 is told if the Demon is nearer or further away from the other. If both players are of opposite alignment, they recieve false information.",
+    "otherNight": 22
+  },
+  {
+    "id": "qintianjian_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/qintianjian_china.png",
+    "firstNightReminder": "Point left or right. If evil players are the same distance from te Qin Tianjian, give a thumbs down.",
+    "name": "Qin Tianjian",
+    "team": "townsfolk",
+    "ability": "On your first night, you'll learn the direction from you of the nearest Evil player. If you are sitting next to an evil player, you learn false information.",
+    "firstNight": 28
+  },
+  {
+    "id": "doctor_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/doctor_china.png",
+    "firstNightReminder": "The Doctor points to a player. Show them a word related to the ability.",
+    "otherNightReminder": "The Doctor points to a player. Show them a word related to the ability.",
+    "name": "Doctor",
+    "team": "townsfolk",
+    "ability": "Each night, pick a player: you learn a word related to their ability.",
+    "firstNight": 22,
+    "otherNight": 24
+  },
+  {
+    "id": "liondancer_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/liondancer_china.png",
+    "firstNightReminder": "Show the Lion Dancer a character token. Once per game, show one of the Demon Bluffs. :reminder:",
+    "otherNightReminder": "Show the Lion Dancer a character token. Once per game, show one of the Demon Bluffs. :reminder:",
+    "reminders": [
+      "Once"
+    ],
+    "name": "Lion Dancer",
+    "team": "townsfolk",
+    "ability": "Each night, learn an in play character. Once per game, you learn one of the Demon Bluffs.",
+    "firstNight": 24,
+    "otherNight": 27
+  },
+  {
+    "id": "buddhistmonk_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/buddhistmonk_china.png",
+    "firstNightReminder": "The Buddhist Monk might protect someone",
+    "otherNightReminder": "The Buddhist Monk might protect someone",
+    "name": "Buddhist Monk",
+    "team": "townsfolk",
+    "ability": "Each night, the first time an evil player's ability affects your living neighbours, it has no effect and you are told you protected someone.",
+    "firstNight": 13,
+    "otherNight": 4
+  },
+  {
+    "id": "alchemist_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/alchemist_china.png",
+    "otherNightReminder": "The Alchemist may choose to see part of the Grimoire",
+    "reminders": [
+      "No Ability"
+    ],
+    "name": "Alchemist",
+    "team": "townsfolk",
+	"special": [
+	{
+      "name": "grimoire",
+      "type": "signal",
+      "time": "night"
+    }
+	],
+    "ability": "Once per game, at night*, you can choose to look at part of the grimoirse. The more dead players, the more you can see, up to half the Grimoire.",
+    "otherNight": 29
+  },
+  {
+    "id": "jinyiwei_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/jinyiwei_china.png",
+    "otherNightReminder": "The Jin Yiwei chooses a player. :reminder:",
+    "reminders": [
+      "Protected"
+    ],
+    "name": "Jin Yiwei",
+    "team": "townsfolk",
+    "ability": "Each night*, pick a player: if they die before dusk, you die instead.",
+    "otherNight": 10
+  },
+  {
+    "id": "taoistmonk_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/taoistmonk_china.png",
+    "otherNightReminder": "The Taoist Monk chooses a player.",
+    "reminders": [
+      "Dead"
+    ],
+    "name": "Taoist Monk",
+    "team": "townsfolk",
+    "ability": "Each night*, pick a player: if they are the Demon, you die, and no other players can die tonight.",
+    "otherNight": 12
+  },
+  {
+    "id": "guide_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/guide_china.png",
+    "firstNightReminder": "The Guide chooses 2 players. Nod or shake your head.",
+    "otherNightReminder": "The Guide chooses 2 players. Nod or shake your head.",
+    "name": "Guide",
+    "team": "townsfolk",
+    "ability": "Each night, pick 2 players: you learn if an evil player chose them tonight.",
+    "firstNight": 29,
+    "otherNight": 30
+  },
+  {
+    "id": "singer_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/singer_china.png",
+    "otherNightReminder": "If the Demon has the Singer's Audience reminder token applied, the Singer dies.",
+    "reminders": [
+      "Audience",
+      "Dead"
+    ],
+    "name": "Singer",
+    "team": "townsfolk",
+    "ability": "Once per game, during the day, you may hold a performance and choose any number of players to be the audience. If the demon is chosen to be in the Audience, you die tonight.",
+    "otherNight": 26
+  },
+  {
+    "id": "shopkeeper_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/shopkeeper_china.png",
+    "firstNightReminder": "Point to the players marked with the Shopkeeper's \"Drunk\" and \"Customer\" reminder tokens. :reminder: :reminder:",
+    "reminders": [
+      "Drunk",
+      "Customer"
+    ],
+    "name": "Shopkeeper",
+    "team": "townsfolk",
+    "ability": "You start knowing 2 good players. One of them will be drunk, even if you are dead.",
+    "firstNight": 26
+  },
+  {
+    "id": "badboy_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/badboy_china.png",
+    "firstNightReminder": "The Bad Boy chooses two good characters. :reminder: :reminder:",
+    "otherNightReminder": "The Bad Boy chooses two good characters. :reminder: :reminder:",
+    "reminders": [
+      "Trick or Treat",
+      "Trick or Treat"
+    ],
+    "name": "Bear Cub",
+    "team": "townsfolk",
+    "ability": "Each night, pick 2 good characters: they recieve false information until dusk.",
+    "firstNight": 14,
+    "otherNight": 5
+  },
+  {
+    "id": "travellingmerchant_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/travellingmerchant_china.png",
+    "firstNightReminder": "The Travelling Merchant may pick a player. If they do, show them all current reminder tokens on that player. :reminder:",
+    "otherNightReminder": "The Travelling Merchant may pick a player. If they do, show them all current reminder tokens on that player. :reminder:",
+    "reminders": [
+      "No Ability"
+    ],
+    "name": "Travelling Merchant",
+    "team": "townsfolk",
+    "ability": "Once per game, at night, pick a player: you learn all reminder tokens currently applied to that player.",
+    "firstNight": 27,
+    "otherNight": 28
+  },
+  {
+    "id": "halffairy_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/halffairy_china.png",
+    "name": "Half Fairy",
+    "team": "townsfolk",
+    "ability": "If an Evil player chooses you with their own ability at night, they instead choose another evil player."
+  },
+  {
+    "id": "lanke_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/lanke_china.png",
+    "firstNightReminder": "The Lanke might be Evil. Point to 3 players.",
+    "reminders": [
+      "Known",
+      "Known",
+      "Known"
+    ],
+    "name": "Lanke",
+    "team": "townsfolk",
+    "ability": "You don't know you're alignment (You might be evil). On your first night, learn 3 players. Only two are the same alignment as you.",
+    "firstNight": 20
+  },
+  {
+    "id": "concubine_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/concubine_china.png",
+    "name": "Concubine",
+    "team": "townsfolk",
+    "ability": "Once per game, the Storyteller may break the rules in your favour. That night, you learn how the rules were broken."
+  },
+  {
+    "id": "facechanger_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/facechanger_china.png",
+    "name": "Face Changer",
+    "team": "townsfolk",
+    "ability": "Each day, if you are mad that you are a good character, you gain that character's abilities that night until dusk."
+  },
+  {
+    "id": "onmyoji_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/onmyoji_china.png",
+    "firstNightReminder": "Show the Onmyoji 2 good and 2 evil character tokens. Only 2 are in-play.",
+    "name": "Onmyoji",
+    "team": "townsfolk",
+    "ability": "You start knowing 2 good and 2 evil characters. Only 2 are in play.",
+    "firstNight": 25
+  },
+  {
+    "id": "broker_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/broker_china.png",
+    "firstNightReminder": "The Broker selects 2 living players. :reminder: :reminder:",
+    "otherNightReminder": "The Broker selects 2 living players. :reminder: :reminder:",
+    "reminders": [
+      "Regular Customer",
+      "Regular Customer"
+    ],
+    "name": "Broker",
+    "team": "townsfolk",
+    "ability": "Each night, pick 2 living players: if they are the same alignment, any player who selects one of them, chooses the other instead.",
+    "firstNight": 12,
+    "otherNight": 3
+  },
+  {
+    "id": "actor_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/actor_china.png",
+    "firstNightReminder": "Wake all Actors, let them make eye contact.",
+    "setup": true,
+    "name": "Actor",
+    "team": "townsfolk",
+    "special": [
+    {
+      "type": "selection",
+      "name": "bag-duplicate"
+    }
+    ],
+    "ability": "All actors know each other. Whoever wins loses, and whoever loses wins, even if all Actors are dead. [All good players are Actors]",
+    "firstNight": 16
+  },
+  {
+    "id": "rebel_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/rebel_china.png",
+    "firstNightReminder": "The Rebel chooses a player. :reminder:",
+    "otherNightReminder": "If the Rebel or the player marked Unbroken dies by execution, the other becomes Evil.",
+    "reminders": [
+      "Unbroken"
+    ],
+    "name": "Rebel",
+    "team": "outsider",
+    "ability": "On your first night, pick a player (not yourself): if he is executed first, you become evil. If you are executed first, you become evil.",
+    "firstNight": 23,
+    "otherNight": 2
+  },
+  {
+    "id": "bartender_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/bartender_china.png",
+    "name": "Bartender",
+    "team": "outsider",
+    "ability": "One of your good neighbours is drunk, even if you are dead."
+  },
+  {
+    "id": "evilstar_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/evilstar_china.png",
+    "otherNightReminder": "If the Evil Star dies, one of their good living neighbours might die.",
+    "reminders": [
+      "Dead"
+    ],
+    "name": "Evil Star",
+    "team": "outsider",
+    "ability": "If you die, one of your living neighbours may die as well.",
+    "otherNight": 21
+  },
+  {
+    "id": "mortician_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/mortician_china.png",
+    "otherNightReminder": "If the Mortician nominated the Demon and the Demon was executed, wake the Mortician, show them the **YOU ARE** token, then the demon token.",
+    "reminders": [
+      "Demon Nominated"
+    ],
+    "name": "Mortician",
+    "team": "outsider",
+    "ability": "If you nominate and execute the Demon, you become an evil Demon. If there are 4 or less players alive (Travellers don't count), you lose your power.",
+    "otherNight": 11
+  },
+  {
+    "id": "envoy_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/envoy_china.png",
+    "name": "Envoy",
+    "team": "outsider",
+    "ability": "Once per night, if all players use their own abilities to select evil players, they select you instead, even if you are dead."
+  },
+  {
+    "id": "scholar_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/scholar_china.png",
+    "firstNightReminder": "Wake the Demon, show the **THIS CHARACTER SELECTED YOU** token, then show the Scholar token.",
+    "reminders": [
+      "Guess Used",
+      "Extra Kill"
+    ],
+    "name": "Scholar",
+    "team": "outsider",
+    "ability": "The Demon knows who you are. Once per game, the demon may visit the storyteller and guess who the Scholar is, if they guess correctly, the Demon can pick a player tonight: they die.",
+    "firstNight": 15
+  },
+  {
+    "id": "humeiniang_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/humeiniang_china.png",
+    "firstNightReminder": "The Hu Mei Niang chooses a player. :Reminder:",
+    "otherNightReminder": "If the Hu Mei Niang died today by execution, wake the Charmed player, and show them the \"YOU ARE\" token and a Thumbs Down",
+    "reminders": [
+      "Charmed"
+    ],
+    "name": "Hu Mei Niang",
+    "team": "minion",
+    "ability": "On your first night, choose a player: They are told that the Hu Mei Niang is in play. If you die by execution, they become Evil that night.",
+    "firstNight": 19,
+    "otherNight": 6
+  },
+  {
+    "id": "guman_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/guman_china.png",
+    "otherNightReminder": "If a player is marked with the Gu Man's \"Nominated\" reminder, they die.",
+    "reminders": [
+      "Nominated",
+      "Dead"
+    ],
+    "name": "Gu Man",
+    "team": "minion",
+    "ability": "Each day, the player who nominates you while you are alive dies that night, even if you are dead.",
+    "otherNight": 20
+  },
+  {
+    "id": "corpseman_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/corpseman_china.png",
+    "setup": true,
+    "name": "Corpse Man",
+    "team": "minion",
+    "ability": "Your nearest townsfolk neighbours register as alive the first time they die. [-1 Outsider]"
+  },
+  {
+    "id": "praetorianguard_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/praetorianguard_china.png",
+    "name": "Praetorian Guard",
+    "team": "minion",
+    "ability": "Players who are mad about dying may be executed immediately."
+  },
+  {
+    "id": "gucarving_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/gucarving_china.png",
+    "firstNightReminder": "The Gu Carving will choose a direction. :reminder: Show the Gu Carving the **THIS PLAYER IS** token, then their character token.",
+    "otherNightReminder": "The Gu Carving will choose a direction. :reminder: Show the Gu Carving the **THIS PLAYER IS** token, then their character token.",
+    "reminders": [
+      "Poisoned"
+    ],
+    "name": "Gu Carving",
+    "team": "minion",
+    "ability": "Each night, choose left or right: The next living good player in that direction is poisoned and may register as Evil and a Minion. You learn their role.",
+    "firstNight": 17,
+    "otherNight": 7
+  },
+  {
+    "id": "winemaker_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/winemaker_china.png",
+    "firstNightReminder": "The Winemaker will choose a character and provide the relevant information. :reminder:",
+    "otherNightReminder": "The Winemaker will choose a character and provide the relevant information. :reminder:",
+    "reminders": [
+      "Poisoned"
+    ],
+    "setup": true,
+    "name": "Winemaker",
+    "team": "minion",
+    "ability": "Each night, choose a good character and give the corresponding information. When that character learns that information, it learns what you gave instead. [-1 Outsider]",
+    "firstNight": 18,
+    "otherNight": 8
+  },
+  {
+    "id": "enchanter_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/enchanter_china.png",
+    "name": "Enchanter",
+    "team": "minion",
+    "ability": "Townsfolk may register as Outsider, Outsiders may register as Townsfolk. Demons may register as Minions. You may register as a Demon."
+  },
+  {
+    "id": "magistrate_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/magistrate_china.png",
+    "name": "Magistrate",
+    "team": "minion",
+    "ability": "On your first night, learn a secret word. The first time an Evil player says this word, the day ends immediately.",
+	"firstNightReminder": "Give the Magistrate a secret word.",
+	"firstNight": 18.1
+  },
+  {
+    "id": "warden_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/warden_china.png",
+    "firstNightReminder": "The Warden chooses 3 players. :reminder: :reminder: :reminder:",
+    "otherNightReminder": "The Warden chooses 3 players. :reminder: :reminder: :reminder:",
+    "reminders": [
+      "Prisoner",
+      "Prisoner",
+      "Prisoner",
+      "Dead",
+      "Dead",
+      "Dead"
+    ],
+    "name": "Warden",
+    "team": "demon",
+    "ability": "Each night, pick between 1 and 3 players. If one is executed today, the other die that night. Otherwise, one of them dies that night.",
+    "firstNight": 21,
+    "otherNight": 19
+  },
+  {
+    "id": "chaos_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/chaos_china.png",
+    "firstNightReminder": "Skip the Minion and Demon info steps, still show the Demon their Bluffs.",
+    "otherNightReminder": "The first time a Minion dies, complete the Minion and Demon info steps. The Chaos chooses a player. :reminder:",
+    "reminders": [
+      "Minion Dead",
+      "Dead",
+      "Dead"
+    ],
+    "setup": true,
+    "name": "Chaos",
+    "team": "demon",
+    "ability": "Each night*, pick a player: they die. Demons and minions don't know each other. When a minion dies for the first time, they learn who each other are that night. [+1 Minions]",
+    "firstNight": 9,
+    "otherNight": 15
+  },
+  {
+    "id": "gluttony_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/gluttony_china.png",
+    "otherNightReminder": "Gluttony may choose any number of players, if they are all different character types, they all die.",
+    "reminders": [
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead"
+    ],
+    "setup": true,
+    "name": "Gluttony",
+    "team": "demon",
+    "ability": "Each night*, choose any number of players (Not travellers): if they are all different character types, they die. [+1 Outsider]",
+    "otherNight": 14
+  },
+  {
+    "id": "trickster_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/trickster_china.png",
+    "otherNightReminder": "The Trickster chooses a player. :reminder: If they did not vote today, they choose another player. :reminder:",
+    "reminders": [
+      "Dead",
+      "Dead",
+      "Didn't Vote"
+    ],
+    "name": "Trickster",
+    "team": "demon",
+    "ability": "Each night*, pick a player: they die. If you didn't vote today, you can act twice tonight.",
+    "otherNight": 13
+  },
+  {
+    "id": "taowu_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/taowu_china.png",
+    "otherNightReminder": "The Tao Wu chooses a player. :reminder: If they choose an Outsider, they may choose again. :reminder:",
+    "reminders": [
+      "Dead",
+      "Dead",
+      "Dead"
+    ],
+    "setup": true,
+    "name": "Tao Wu",
+    "team": "demon",
+    "ability": "Each night*, pick a player: they die. Once per night, if you kill an ousider in this way, you can act again. [+1 Outsider]",
+    "otherNight": 18
+  },
+  {
+    "id": "dreameatingtapir_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/dreameatingtapir_china.png",
+    "otherNightReminder": "The Dream-Eating Tapir chooses a player. :reminder:",
+    "reminders": [
+      "Dead",
+      "Dead"
+    ],
+    "setup": true,
+    "name": "Dream-Eating Tapir",
+    "team": "demon",
+    "ability": "Each night*, pick a player, they die. Players who select you with their ability select themselves instead. [-1 Outsider]",
+    "otherNight": 16
+  },
+  {
+    "id": "qionqi_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/qionqi_china.png",
+    "otherNightReminder": "The Qion Qi chooses a player. :reminder:",
+    "reminders": [
+      "Dead",
+      "Dead"
+    ],
+    "name": "Qion Qi",
+    "team": "demon",
+    "ability": "Each night*, pick a player: they die. All Outsiders might register as evil & a Minion or a Demon.",
+    "otherNight": 17
+  },
+  {
+    "id": "riverbo_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/riverbo_china.png",
+    "otherNightReminder": "If a player is marked with the River Bo's \"Nominated\" reminder, they might die.",
+    "reminders": [
+      "Dead",
+      "Nominated"
+    ],
+    "name": "River Bo",
+    "team": "traveler",
+    "ability": "If you nominate a player of your alignment, they might die that night",
+    "otherNight": 25
+  },
+  {
+    "id": "beggar_china",
+    "image": "https://www.bloodstar.xyz/p/leotheleopardnz/China/beggar_china.png",
+    "name": "Beggar",
+    "team": "traveler",
+    "ability": "Each day, you can publicly ask another player to choose any non-demon character. You gain that ability until dawn."
+  }
+]
