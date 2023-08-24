@@ -1,5 +1,6 @@
 {
   ".townsfolk": [
+ 	"actor_china",
     "alchemist",
     "amnesiac",
     "artist",
@@ -189,6 +190,7 @@
   ],
   "#droison": ["#drunk", "#poison"],
   "#outsidercount": [
+   	"actor_china",
     "baron",
     "fang_gu",
     "vigormortis",
@@ -261,7 +263,7 @@
 	"cultleader"
   ],
   "#extraevils": ["#startingextraevils", "#convertextraevils"],
-  "#musthide": ["heretic", "damsel", "choirboy"],
+  "#musthide": ["heretic", "damsel", "actor_china", "choirboy"],
   "#quietminions": [
     "assassin",
     "baron",
