@@ -86,6 +86,8 @@
     "lunatic",
     "moonchild",
     "mutant",
+	"plague_doctor",
+	"plaguedoctor",
     "politician",
 	"puzzlemaster",
     "recluse",
@@ -195,10 +197,13 @@
     "fang_gu",
     "vigormortis",
     "godfather",
+	"plague_doctor",
+	"plaguedoctor",
     "balloonist",
     "huntsman",
     "sentinel",
 	"fanggu"
+
   ],
   "#protection": [
     "monk",
@@ -263,7 +268,14 @@
 	"cultleader"
   ],
   "#extraevils": ["#startingextraevils", "#convertextraevils"],
-  "#musthide": ["heretic", "damsel", "actor_china", "choirboy"],
+  "#musthide": [
+	"heretic", 
+	"damsel", 
+	"actor_china", 
+	"choirboy",
+	"plague_doctor",
+	"plaguedoctor"
+	],
   "#quietminions": [
     "assassin",
     "baron",
