@@ -242,9 +242,9 @@
     "warning": "Saint cannot be executed for the Godfather."
   },
   {
-    "present": [["engineer", "pit_hag", "pithag", "preacher"], ["fearmonger"]],
+    "present": [["#rolechange", "preacher",], ["#loudminions"]],
 	"missing": ["droison"],
-    "warning": "Fearmonger announcements mid-game can confirm a role change character or a Preacher."
+    "warning": "Loud Minion announcements mid-game can confirm a character that changes in-play roles or a Preacher."
   },
   {
     "present": [["mezepheles"], ["al-hadikhia", "shabaloth"]],

@@ -221,9 +221,7 @@
     "zombuul",
     "pukka",
     "po",
-    "minstrel",
-    "pit-hag",
-	"pithag"
+    "minstrel"
   ],
   "#extranightdeaths": [
     "grandmother",
@@ -235,9 +233,7 @@
     "assassin",
     "shabaloth",
     "po",
-    "acrobat",
-    "pit-hag",
-	"pithag"
+    "acrobat"
   ],
   "#coversextranightdeaths": [
     "legion"
@@ -272,9 +268,7 @@
 	"heretic", 
 	"damsel", 
 	"actor_china", 
-	"choirboy",
-	"plague_doctor",
-	"plaguedoctor"
+	"choirboy"
 	],
   "#quietminions": [
     "assassin",
@@ -296,7 +290,6 @@
   ],
   "#ondeathminions": [
     "boomdandy",
-	"goblin",
 	"psychopath",
 	"vizier",
 	"fearmonger"
@@ -327,5 +320,24 @@
   "#onnightdeath": [
 	"ravenkeeper",
 	"farmer"
+  ],
+  "#loudminions": [
+	"cerenovus",
+	"evil_twin",
+	"eviltwin",
+	"fearmonger",
+	"harpy",
+	"organgrinder",
+	"organ_grinder",
+	"psychopath",
+	"widow",
+	"vizier"
+  ],
+  "#rolechange": [
+	"pithag",
+	"pit-hag",
+	"engineer"
+	"plaguedoctor",
+	"plague_doctor"
   ]
 }
