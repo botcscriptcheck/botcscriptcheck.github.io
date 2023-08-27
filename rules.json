@@ -242,7 +242,7 @@
     "warning": "Saint cannot be executed for the Godfather."
   },
   {
-    "present": [["#rolechange", "preacher",], ["#loudminions"]],
+    "present": [["#rolechange", "preacher"], ["#loudminions"]],
 	"missing": ["droison"],
     "warning": "Loud Minion announcements mid-game can confirm a character that changes in-play roles or a Preacher."
   },
