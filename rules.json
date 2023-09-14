@@ -282,5 +282,14 @@
   {
 	"present": [["king"], ["choirboy"], ["marionette"]],
 	"warning": "The Marionette cannot be the King added by the Choirboy"
+  },
+  {
+	"present": [["legion"], ["al-hadikhia", "alhadikhia", "riot", "leviathan"]],
+	"missing": [["fang_gu", "imp", "lil_monsta", "lleech", "no_dashii", "po", "pukka", "shabaloth", "vigormortis", "vortox", "zombuul", "fanggu", "nodashii", "lilmonsta"]],
+	"warning": "Legion doesn't work alone with loud Demons."
+  },
+  {
+	"present": [["legion"], ["slayer"]],
+	"missing": [["scarletwoman", "scarlet_woman", "recluse", "tinker"]],
+	"warning": "A Slayer shot that doesn't end the game confirms Legion."
   }
-]
