@@ -292,5 +292,15 @@
 	"present": [["legion"], ["slayer"]],
 	"missing": [["scarletwoman", "scarlet_woman", "recluse", "tinker"]],
 	"warning": "A Slayer shot that doesn't end the game confirms Legion."
+  },
+  {
+	"present": [["choirboy"]],
+	"missing": [["king"]],
+	"error": "You can not have a Choirboy without a King."
+  },
+  {
+	"present": [["huntsman"]],
+	"missing": [["damsel"]],
+	"error": "You can not have a Huntsmna without a Damsel."
   }
  ]
