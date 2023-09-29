@@ -51,6 +51,16 @@
     "error": "Heretic, Damsel, and Choirboy don't work with characters that can see the Grimoire."
   },
   {
+	"present": [["choirboy"]],
+	"missing": [["king"]],
+	"error": "You can not have a Choirboy without a King."
+  },
+  {
+	"present": [["huntsman"]],
+	"missing": [["damsel"]],
+	"error": "You can not have a Huntsmna without a Damsel."
+  }
+  {
     "present": [["lil_monsta", "lilmonsta"]],
     "count": {
       "characters": [".minion"],
@@ -292,15 +302,5 @@
 	"present": [["legion"], ["slayer"]],
 	"missing": [["scarletwoman", "scarlet_woman", "recluse", "tinker"]],
 	"warning": "A Slayer shot that doesn't end the game confirms Legion."
-  },
-  {
-	"present": [["choirboy"]],
-	"missing": [["king"]],
-	"error": "You can not have a Choirboy without a King."
-  },
-  {
-	"present": [["huntsman"]],
-	"missing": [["damsel"]],
-	"error": "You can not have a Huntsmna without a Damsel."
   }
  ]
