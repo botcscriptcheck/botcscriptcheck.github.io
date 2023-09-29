@@ -44,7 +44,7 @@
   {
     "missing": [["#outsidercount"]],
     "error": "No Outsider count modification."
-  }
+  },
   {
     "present": [["spy", "widow"], ["#musthide"]],
     "error": "Heretic, Damsel, and Choirboy don't work with characters that can see the Grimoire."
