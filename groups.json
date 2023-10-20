@@ -145,7 +145,8 @@
 	"alhadikhia",
 	"fanggu",
 	"nodashii",
-	"lilmonsta"
+	"lilmonsta",
+	"ojo"
   ],
   ".traveller": [
 	"apprentice",
@@ -237,7 +238,8 @@
     "acrobat"
   ],
   "#coversextranightdeaths": [
-    "legion"
+    "legion",
+	"ojo"
   ],
   "#resurrection": ["professor", "shabaloth", "al-hadikhia", "alhadikhia"],
   "#surviveexecutions": [
