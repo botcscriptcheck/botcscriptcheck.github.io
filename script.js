@@ -34,7 +34,20 @@ input.onchange = (evt) => {
         throw e;
       }
     }
-    
+        // Transform filecontent according to your specifications
+    filecontent = filecontent.map(item => {
+      if (item.id === '_meta') {
+        return {
+          author: item.author,
+          name: item.name,
+          isOfficial: false,
+          id: item.id
+        };
+      } else {
+        return { id: item.id };
+      }
+    });
+	
     console.log(filecontent);
     filecontent = filecontent.filter(e => e.id).map(e => e.id);
     
