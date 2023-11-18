@@ -44,8 +44,12 @@ input.onchange = (evt) => {
           id: item.id
         };
       } else {
-        return { id: item };
-      }
+		  if (item.id) {
+			return { id: item.id }
+		  } else {
+			return { id: item }
+		  }     
+		}
     });
 	
     console.log(filecontent);
