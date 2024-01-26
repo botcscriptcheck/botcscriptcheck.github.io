@@ -72,7 +72,9 @@
 	"tealady",
 	"towncrier",
 	"fortuneteller",
-	"shugenja"
+	"shugenja",
+	"village_idiot",
+	"villageidiot"
   ],
   ".outsider": [
     "acrobat",
@@ -208,7 +210,6 @@
     "sentinel",
 	"fanggu",
 	"kazali"
-
   ],
   "#protection": [
     "monk",
