@@ -41,35 +41,35 @@
 	"count": {
 	  "characters": ["#firstnighttown"],
 	  "lt": 1
-	}
+	},
 	"error": "No First Night townsfolk."
   },
   {
 	"count": {
 	  "characters": ["#eachnighttown"],
 	  "lt": 1
-	}
+	},
 	"error": "No Each Night townsfolk."
   },
-    {
+  {
 	"count": {
 	  "characters": ["#eachnightstartown"],
 	  "lt": 1
-	}
+	},
 	"error": "No Each Night* townsfolk."
   },
-    {
+  {
 	"count": {
 	  "characters": ["#oncepergametown"],
 	  "lt": 1
-	}
+	},
 	"error": "No Once Per Game townsfolk."
   },
-    {
+  {
 	"count": {
 	  "characters": ["#ontriggertown"],
 	  "lt": 1
-	}
+	},
 	"error": "No passive townsfolk or townsfolk that act on a trigger."
   },
   {
