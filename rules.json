@@ -12,7 +12,7 @@
     "note": "This script has alternate win/loss conditions."
   },
   {
-    "present": [["general", "heretic", "atheist", "leviathan", "legion"]],
+    "present": [["#experiencedst"]],
     "note": "This script is for confirmed/expert players and Storytellers."
   },
   {
@@ -38,6 +38,41 @@
     "error": "No Demons."
   },
   {
+	"count": {
+	  "characters": ["#firstnighttown"],
+	  "lt": 1
+	}
+	"error": "No First Night townsfolk."
+  },
+  {
+	"count": {
+	  "characters": ["#eachnighttown"],
+	  "lt": 1
+	}
+	"error": "No Each Night townsfolk."
+  },
+    {
+	"count": {
+	  "characters": ["#eachnightstartown"],
+	  "lt": 1
+	}
+	"error": "No Each Night* townsfolk."
+  },
+    {
+	"count": {
+	  "characters": ["#oncepergametown"],
+	  "lt": 1
+	}
+	"error": "No Once Per Game townsfolk."
+  },
+    {
+	"count": {
+	  "characters": ["#ontriggertown"],
+	  "lt": 1
+	}
+	"error": "No passive townsfolk or townsfolk that act on a trigger."
+  },
+  {
     "missing": [["#droison"]],
     "error": "No sources of droison"
   },
@@ -57,7 +92,7 @@
   {
 	"present": [["huntsman"]],
 	"missing": [["damsel"]],
-	"error": "You can not have a Huntsmna without a Damsel."
+	"error": "You can not have a Huntsman without a Damsel."
   },
   {
     "present": [["lil_monsta", "lilmonsta"]],
