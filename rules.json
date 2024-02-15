@@ -329,7 +329,7 @@
   },
   {
 	"present": [["legion"], ["al-hadikhia", "alhadikhia", "riot", "leviathan"]],
-	"missing": [["fang_gu", "imp", "lil_monsta", "lleech", "no_dashii", "po", "pukka", "shabaloth", "vigormortis", "vortox", "zombuul", "fanggu", "nodashii", "lilmonsta"]],
+	"missing": [["fang_gu", "imp", "lil_monsta", "lleech", "no_dashii", "po", "pukka", "shabaloth", "vigormortis", "vortox", "zombuul", "fanggu", "nodashii", "lilmonsta", "ojo", "kazali"]],
 	"warning": "Legion doesn't work alone with loud Demons."
   },
   {
