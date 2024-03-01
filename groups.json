@@ -150,7 +150,8 @@
 	"nodashii",
 	"lilmonsta",
 	"ojo",
-	"kazali"
+	"kazali",
+	"yaggababble"
   ],
   ".traveller": [
 	"apprentice",
@@ -243,7 +244,8 @@
   ],
   "#coversextranightdeaths": [
     "legion",
-	"ojo"
+	"ojo",
+	"yaggababble"
   ],
   "#resurrection": ["professor", "shabaloth", "al-hadikhia", "alhadikhia"],
   "#surviveexecutions": [
