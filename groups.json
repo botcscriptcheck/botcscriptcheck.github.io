@@ -127,7 +127,8 @@
 	"devilsadvocate",
 	"organgrinder",
 	"pithag",
-	"eviltwin"
+	"eviltwin",
+	"summoner"
   ],
   ".demon": [
     "al-hadikhia",
@@ -228,7 +229,8 @@
     "zombuul",
     "pukka",
     "po",
-    "minstrel"
+    "minstrel",
+	"summoner"
   ],
   "#extranightdeaths": [
     "grandmother",
