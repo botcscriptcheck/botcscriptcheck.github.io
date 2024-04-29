@@ -81,6 +81,13 @@
     "error": "No Outsider count modification."
   },
   {
+    "count": {
+      "characters": ["#convertextraevils"],
+      "gt": 1
+    },
+    "warning": "More than 1 character that converts good players to evil."
+  },
+  {
     "present": [["spy", "widow"], ["#musthide"]],
     "error": "Heretic, Damsel, and Choirboy don't work with characters that can see the Grimoire."
   },
@@ -146,6 +153,14 @@
     },
     "missing": [["#coversextranightdeaths"]],
     "warning": "Only one character that causes extra night deaths."
+  },
+  {
+    "present": [["gossip"]],
+    "count": {
+      "characters": ["#extranightdeaths"],
+      "lt": 4
+    },
+    "warning": "A Gossip is too easy to confirm without multiple other reasons for extra night deaths, preferably hidden ones."
   },
   {
     "count": {
@@ -264,6 +279,10 @@
   {
     "present": [["virgin"]],
     "warning": "Virgin is a hard-confirmed character."
+  },
+  {
+    "present": [["virgin"], ["fool", "sailor", "tea_lady"]],
+    "warning": "Virgin with execution protection. A Virgin-executed player that survives creates 2 alive hard-confirmed players. Maybe more."
   },
   {
     "present": [["lleech"], ["golem", "lycanthrope", "moonchild"]],
