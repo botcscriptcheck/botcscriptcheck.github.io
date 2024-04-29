@@ -74,7 +74,7 @@ input.onchange = (evt) => {
     };
   }
   
-  reader.readAsText(event.target.files[0]);
+  reader.readAsText(evt.target.files[0]);
 };
 
 function parseRule(rule, script) {  
@@ -142,3 +142,20 @@ function recursivePresence(char, script) {
   
   return total;
 }
+
+
+(function initDragAndDrop() {
+  const dragIn = (ev) => {
+    input.classList.add("drag-active");
+  }
+
+  const dragOut = (ev) => {
+    input.classList.remove("drag-active");
+  }
+
+  if (input) {
+    input.addEventListener('dragenter', dragIn);
+    input.addEventListener('dragleave', dragOut);
+    input.addEventListener('drop', dragOut);
+  }
+})()

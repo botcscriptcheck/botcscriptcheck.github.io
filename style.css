@@ -21,3 +21,29 @@ a:link{
 a:visited{
 	color: lightblue;
 }
+
+.drop-or-paste {
+  --drop-target-color: gray;
+
+  border: 2px dashed var(--drop-target-color);
+  background-color: color-mix(in srgb, var(--drop-target-color), 90% transparent);
+  border-radius: 8px;
+  padding: 1rem;
+  position: relative;
+  transition: background-color 200ms, border-color 200ms;
+}
+
+.drop-or-paste:has(.drag-active) {
+  --drop-target-color: darkred;
+}
+
+.drop-or-paste p {
+  margin-top: 0;
+  padding-bottom: 1rem;
+}
+
+.drop-or-paste input {
+  padding: 3rem 1rem 1rem;
+  position: absolute;
+  inset: 0;
+}
