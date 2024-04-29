@@ -12,20 +12,21 @@ input.onchange = (evt) => {
   console.log(groups);
   
   if(!window.FileReader) return; // Browser is not compatible
-  
-  output.innerHTML = "";
 
-  let reader = new FileReader();
+  output.replaceChildren();
+
+  const reader = new FileReader();
+
   reader.onload = (evt) => {
     if(evt.target.readyState != 2) return;
     if(evt.target.error) {
       alert('Error while reading file');
       return;
     }
-            
-    let filecontent = null;
+
     try {
-      filecontent = JSON.parse(evt.target.result);
+      const filecontent = JSON.parse(evt.target.result);
+      checkScript(filecontent);
     }
     catch (e) {
       if (e.name == 'SyntaxError') {
@@ -34,46 +35,8 @@ input.onchange = (evt) => {
         throw e;
       }
     }
-        // Transform filecontent according to your specifications
-    filecontent = filecontent.map(item => {
-      if (item.id === '_meta') {
-        return {
-          author: item.author,
-          name: item.name,
-          isOfficial: false,
-          id: item.id
-        };
-      } else {
-		  if (item.id) {
-			return { id: item.id }
-		  } else {
-			return { id: item }
-		  }     
-		}
-    });
-	
-    console.log(filecontent);
-    filecontent = filecontent.filter(e => e.id).map(e => e.id);
-    
-    for (let elt of rules) {
-      if (parseRule(elt, filecontent)) {
-        let msg = document.createElement("li");
-        
-        if (elt.note) {
-          msg.innerHTML = elt.note;
-        } else if (elt.warning) {
-          msg.style.color = "yellow";
-          msg.innerHTML = elt.warning;
-        } else if (elt.error) {
-          msg.style.color = "red";
-          msg.innerHTML = elt.error;
-        }
-        
-        output.appendChild(msg);
-      }
-    };
-  }
-  
+};
+
   reader.readAsText(evt.target.files[0]);
 };
 
@@ -87,7 +50,7 @@ function parseRule(rule, script) {
   }
   
   if (rule.count) {
-    let count = countGroup(script, rule.count.characters);
+    const count = countGroup(script, rule.count.characters);
     
     if (rule.count.gt && count <= rule.count.gt) return false;
     if (rule.count.lt && count >= rule.count.lt) return false;
@@ -143,14 +106,67 @@ function recursivePresence(char, script) {
   return total;
 }
 
+function checkScript(scriptJson) {
+  // Transform filecontent according to your specifications
+  scriptJson = scriptJson.map((item) => {
+    if (item.id === '_meta') {
+      return {
+        author: item.author,
+        name: item.name,
+        isOfficial: false,
+        id: item.id,
+      }
+    } else {
+      if (item.id) {
+        return { id: item.id }
+      } else {
+        return { id: item }
+      }
+    }
+  })
+
+  console.log(scriptJson)
+  scriptJson = scriptJson.filter((e) => e.id).map((e) => e.id)
+
+  for (let elt of rules) {
+    if (parseRule(elt, scriptJson)) {
+      const msg = document.createElement('li')
+
+      if (elt.note) {
+        msg.innerHTML = elt.note
+      } else if (elt.warning) {
+        msg.style.color = 'yellow'
+        msg.innerHTML = elt.warning
+      } else if (elt.error) {
+        msg.style.color = 'red'
+        msg.innerHTML = elt.error
+      }
+
+      output.appendChild(msg)
+    }
+  }
+}
 
 (function initDragAndDrop() {
-  const dragIn = (ev) => {
-    input.classList.add("drag-active");
+  document.addEventListener('paste', (evt) => {
+    output.replaceChildren(); // clear output element of any printed messages
+    const pastedText = evt.clipboardData.getData('text/plain');
+    try {
+      const scriptJson = JSON.parse(pastedText);
+      console.log({scriptJson})
+      window.checkScript(scriptJson);
+    } catch (err) {
+      alert('Unable to detect script JSON, please try again.');
+      console.error(err)
+    }
+  });
+
+  const dragIn = (evt) => {
+    input.classList.add('drag-active');
   }
 
-  const dragOut = (ev) => {
-    input.classList.remove("drag-active");
+  const dragOut = (evt) => {
+    input.classList.remove('drag-active');
   }
 
   if (input) {
