@@ -1,0 +1,160 @@
+[{"id":"_meta","author":"Mup","name":"Did You Hear That?"},
+"chef","bounty_hunter","pixie","village_idiot","king","balloonist",
+"undertaker","gambler","gossip","savant","seamstress","choirboy","banshee",
+"klutz","drunk","lunatic","hatter",
+"fearmonger","pit-hag","vizier", 
+  {
+    "id": "troll",
+    "image": "https://i.ibb.co/thCzZ3V/troll.png",
+    "firstNightReminder": "You may make a false announcement",
+    "otherNightReminder": "You may make a false announcement",
+    "reminders": [
+      "Announcement Made"
+    ],
+    "name": "Troll",
+    "team": "minion",
+    "ability": "Each day/night cycle, the Storyteller may make a false public statement.",
+    "firstNight": 14.1,
+    "otherNight": 5.1
+  },
+"po","al-hadikhia","leviathan",
+{
+    "id": "ElectorDay1",
+    "image": [
+      "https://i.ibb.co/m6VFZJ1/elector-Travellerbackground.png",
+      "https://i.ibb.co/0CvrZp6/elector-Traveller-Gbackground.png",
+      "https://i.ibb.co/vxLX3kY/elector-Traveller-Ebackground.png"
+    ],
+    "reminders": [
+      "Day 1 - 1 vote"
+    ],
+    "name": "ElectorDay1",
+    "team": "traveler",
+    "ability": "Each day, you gain an additional vote.",
+    "special": [
+      {
+        "type": "vote",
+		"name": "multiplier",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "ElectorDay2",
+    "image": [
+      "https://i.ibb.co/m6VFZJ1/elector-Travellerbackground.png",
+      "https://i.ibb.co/0CvrZp6/elector-Traveller-Gbackground.png",
+      "https://i.ibb.co/vxLX3kY/elector-Traveller-Ebackground.png"
+    ],
+    "reminders": [
+      "Day 2 - 2 votes"
+    ],
+    "name": "ElectorDay2",
+    "team": "traveler",
+    "ability": "Each day, you gain an additional vote.",
+    "special": [
+      {
+        "type": "vote",
+		"name": "multiplier",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "id": "ElectorDay3",
+    "image": [
+      "https://i.ibb.co/m6VFZJ1/elector-Travellerbackground.png",
+      "https://i.ibb.co/0CvrZp6/elector-Traveller-Gbackground.png",
+      "https://i.ibb.co/vxLX3kY/elector-Traveller-Ebackground.png"
+    ],
+    "reminders": [
+      "Day 3 - 3 votes"
+    ],
+    "name": "ElectorDay3",
+    "team": "traveler",
+    "ability": "Each day, you gain an additional vote.",
+    "special": [
+      {
+        "type": "vote",
+		"name": "multiplier",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "id": "ElectorDay4",
+    "image": [
+      "https://i.ibb.co/m6VFZJ1/elector-Travellerbackground.png",
+      "https://i.ibb.co/0CvrZp6/elector-Traveller-Gbackground.png",
+      "https://i.ibb.co/vxLX3kY/elector-Traveller-Ebackground.png"
+    ],
+    "reminders": [
+      "Day 4 - 4 votes"
+    ],
+    "name": "ElectorDay4",
+    "team": "traveler",
+    "ability": "Each day, you gain an additional vote.",
+    "special": [
+      {
+        "type": "vote",
+		"name": "multiplier",
+        "value": "4"
+      }
+    ]
+  },
+  {
+    "id": "ElectorDay5",
+    "image": [
+      "https://i.ibb.co/m6VFZJ1/elector-Travellerbackground.png",
+      "https://i.ibb.co/0CvrZp6/elector-Traveller-Gbackground.png",
+      "https://i.ibb.co/vxLX3kY/elector-Traveller-Ebackground.png"
+    ],
+    "reminders": [
+      "Day 5 - 5 votes"
+    ],
+    "name": "ElectorDay5",
+    "team": "traveler",
+    "ability": "Each day, you gain an additional vote.",
+    "special": [
+      {
+        "type": "vote",
+		"name": "multiplier",
+        "value": "5"
+      }
+    ]
+  },
+  {
+    "id": "ElectorDay6",
+    "image": [
+      "https://i.ibb.co/m6VFZJ1/elector-Travellerbackground.png",
+      "https://i.ibb.co/0CvrZp6/elector-Traveller-Gbackground.png",
+      "https://i.ibb.co/vxLX3kY/elector-Traveller-Ebackground.png"
+    ],
+    "reminders": [
+      "Day 6 - 6 votes"
+    ],
+    "name": "ElectorDay6",
+    "team": "traveler",
+    "ability": "Each day, you gain an additional vote.",
+    "special": [
+      {
+        "type": "vote",
+		"name": "multiplier",
+        "value": "6"
+  }]
+  },
+	    {
+    "id": "Castaway",
+    "image": [
+      "https://i.ibb.co/1qx4F83/castaway.png",
+      "https://i.ibb.co/gyCFJ4b/castaway-Good.png",
+      "https://i.ibb.co/QMPThs6/castaway-Evil.png"
+    ],
+
+    "name": "Castaway",
+    "team": "traveler",
+    "ability": "The Storyteller may Exile you at any time."
+
+  }
+  
+  ]
