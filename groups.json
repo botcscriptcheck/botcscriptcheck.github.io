@@ -74,7 +74,8 @@
 	"fortuneteller",
 	"shugenja",
 	"village_idiot",
-	"villageidiot"
+	"villageidiot",
+	"banshee"
   ],
   ".outsider": [
     "acrobat",
@@ -432,7 +433,8 @@
 	"minstrel",
 	"cannibal",
 	"atheist",
-	"mayor"
+	"mayor",
+	"banshee"
   ],
   "#experiencedst": [
 	"atheist",
