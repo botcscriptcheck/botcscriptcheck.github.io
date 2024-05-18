@@ -37,7 +37,7 @@ a:visited{
 }
 
 .drop-or-paste:has(.drag-active) {
-  --drop-target-color: darkred;
+  --drop-target-color: green;
 }
 
 .drop-or-paste p {
