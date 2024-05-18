@@ -81,8 +81,8 @@
     "error": "No Outsider count modification."
   },
   {
-    "present": [["spy", "widow"], ["#musthide"]],
-    "error": "Heretic, and Choirboy don't work with characters that can see the Grimoire."
+    "present": [["spy", "widow"], ["heretic", "choirboy"]],
+    "error": "Heretic and Choirboy don't work with characters that can see the Grimoire."
   },
   {
 	"present": [["choirboy"]],
