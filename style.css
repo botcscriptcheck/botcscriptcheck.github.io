@@ -14,8 +14,11 @@ body {
   background-color: var(--color-bg);
   font-family: 'Goudy Old Style', sans-serif;
 }
-a:link{
-	color: lightblue;
+
+main {
+  margin: 0 auto;
+  max-width: 800px; /* fallback in case 'ch' unit isn't supported */
+  max-width: 80ch;
 }
 
 a:visited{
