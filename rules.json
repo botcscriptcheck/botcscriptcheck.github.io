@@ -82,7 +82,7 @@
   },
   {
     "present": [["spy", "widow"], ["#musthide"]],
-    "error": "Heretic, Damsel, and Choirboy don't work with characters that can see the Grimoire."
+    "error": "Heretic, and Choirboy don't work with characters that can see the Grimoire."
   },
   {
 	"present": [["choirboy"]],
