@@ -194,7 +194,7 @@
         "moonhchild",
         "goon",
         "politician",
-		"fanggu"
+		    "fanggu"
       ]
     ],
     "warning": "No hidden Outsiders or reason for the Outsiders to hide."
@@ -210,10 +210,12 @@
         "fang_gu",
         "al-hadikhia",
         "lil_monsta",
-		"poppygrower",
-		"fanggu",
-		"lilmonsta",
-		"alhadikhia"
+		    "poppygrower",
+		    "fanggu",
+		    "lilmonsta",
+		    "alhadikhia",
+        "scarletwoman",
+        "scarlet_woman"
       ]
     ],
     "warning": "No reason to distrust night deaths."
