@@ -1,6 +1,6 @@
 {
   ".townsfolk": [
- 	"actor_china",
+ 	  "actor_china",
     "alchemist",
     "amnesiac",
     "artist",
@@ -64,18 +64,18 @@
     "washerwoman",
     "steward",
     "knight",
-	"bountyhunter",
-	"cultleader",
-	"highpriestess",
-	"poppygrower",
-	"snakecharmer",
-	"tealady",
-	"towncrier",
-	"fortuneteller",
-	"shugenja",
-	"village_idiot",
-	"villageidiot",
-	"banshee"
+	  "bountyhunter",
+	  "cultleader",
+	  "highpriestess",
+	  "poppygrower",
+	  "snakecharmer",
+	  "tealady",
+	  "towncrier",
+	  "fortuneteller",
+	  "shugenja",
+	  "village_idiot",
+	  "villageidiot",
+	  "banshee"
   ],
   ".outsider": [
     "acrobat",
@@ -99,7 +99,8 @@
     "saint",
     "snitch",
     "sweetheart",
-    "tinker"
+    "tinker",
+    "ogre"
   ],
   ".minion": [
     "assassin",
@@ -273,7 +274,8 @@
     "goon",
     "politician",
 	"fanggu",
-	"cultleader"
+	"cultleader",
+  "ogre"
   ],
   "#extraevils": ["#startingextraevils", "#convertextraevils"],
   "#musthide": [
