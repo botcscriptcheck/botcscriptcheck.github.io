@@ -75,7 +75,8 @@
 	  "shugenja",
 	  "village_idiot",
 	  "villageidiot",
-	  "banshee"
+	  "banshee",
+    "alsaahir"
   ],
   ".outsider": [
     "acrobat",
@@ -329,7 +330,8 @@
 	"leviathan",
 	"boomdandy",
 	"eviltwin",
-	"cultleader"
+	"cultleader",
+  "alsaahir"
   ],
   "#onnightdeath": [
 	"ravenkeeper",
@@ -402,7 +404,8 @@
   "#eachdaytown": [
 	"gossip",
 	"savant",
-	"amnesiac"
+	"amnesiac",
+  "alsaahir"
 	],
   "#oncepergametown": [
 	"juggler",

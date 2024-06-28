@@ -53,7 +53,7 @@
   },
   {
 	"count": {
-	  "characters": ["#eachnightstartown"],
+	  "characters": ["#eachnightstartown", "#eachnighttown"],
 	  "lt": 1
 	},
 	"error": "No Each Night* townsfolk."
@@ -336,7 +336,7 @@
   },
   {
 	"present": [["legion"], ["slayer"]],
-	"missing": [["scarletwoman", "scarlet_woman", "recluse", "tinker"]],
+	"missing": [["scarletwoman", "scarlet_woman", "recluse", "tinker", "harpy"]],
 	"warning": "A Slayer shot that doesn't end the game confirms Legion."
   }
  ]
