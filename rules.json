@@ -268,6 +268,14 @@
     "warning": "Virgin is a hard-confirmed character."
   },
   {
+    "present": [["banshee"]],
+    "warning": "Banshee is a hard-confirmed character."
+  },
+  {
+    "present": [["golem"], ["goblin"]],
+    "warning": "Golem is a strong outsider in games with minions that out themselves."
+  },
+  {
     "present": [["lleech"], ["golem", "lycanthrope", "moonchild"]],
     "warning": "Good-aligned targeted killing roles are dangerous for a Lleech."
   },
