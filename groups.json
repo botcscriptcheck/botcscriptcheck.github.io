@@ -132,7 +132,8 @@
 	"organgrinder",
 	"pithag",
 	"eviltwin",
-	"summoner"
+	"summoner",
+ "boffin"
   ],
   ".demon": [
     "al-hadikhia",
@@ -176,7 +177,8 @@
 	"scapegoat",
 	"thief",
 	"voudon",
-	"bonecollector"
+	"bonecollector",
+ "gnome"
   ],
 	
   "#gooddrunker": [
@@ -205,18 +207,18 @@
   ],
   "#droison": ["#drunk", "#poison"],
   "#outsidercount": [
-   	"actor_china",
-    "baron",
-    "fang_gu",
-    "vigormortis",
-    "godfather",
-	"plague_doctor",
-	"plaguedoctor",
-    "balloonist",
-    "huntsman",
-    "sentinel",
-	"fanggu",
-	"kazali",
+  "actor_china",
+  "baron",
+  "fang_gu",
+  "vigormortis",
+  "godfather",
+	 "plague_doctor",
+	 "plaguedoctor",
+  "balloonist",
+  "huntsman",
+  "sentinel",
+ 	 "fanggu",
+	 "kazali",
   "lordoftyphon"
   ],
   "#protection": [
