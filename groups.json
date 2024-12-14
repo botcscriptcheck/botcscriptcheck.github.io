@@ -133,7 +133,8 @@
 	  "pithag",
 	  "eviltwin",
 	  "summoner",
-    "boffin"
+    "boffin",
+   "xaan"
   ],
   ".demon": [
     "al-hadikhia",
@@ -203,7 +204,8 @@
     "vigormortis",
     "widow",
     "lleech",
-	  "nodashii"
+	  "nodashii",
+   "xaan"
   ],
   "#droison": ["#drunk", "#poison"],
   "#outsidercount": [
@@ -219,7 +221,8 @@
     "sentinel",
  	  "fanggu",
 	  "kazali",
-    "lordoftyphon"
+    "lordoftyphon",
+   "xaan"
   ],
   "#protection": [
     "monk",
