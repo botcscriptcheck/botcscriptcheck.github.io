@@ -205,7 +205,7 @@
     "vigormortis",
     "widow",
     "lleech",
-	  "nodashii",
+   "nodashii",
    "xaan"
   ],
   "#droison": ["#drunk", "#poison"],
@@ -215,16 +215,16 @@
     "fang_gu",
     "vigormortis",
     "godfather",
-	  "plague_doctor",
-	  "plaguedoctor",
+    "plague_doctor",
+    "plaguedoctor",
     "balloonist",
     "huntsman",
     "sentinel",
- 	  "fanggu",
-	  "kazali",
+    "fanggu",
+    "kazali",
     "lordoftyphon",
-   "xaan"
-  ],
+    "xaan"
+ ],
   "#protection": [
     "monk",
     "soldier",
@@ -397,7 +397,9 @@
 	  "cultleader",
 	  "cult_leader",
 	  "fortuneteller",
-	  "fortune_teller"
+	  "fortune_teller",
+	  "villageidiot",
+	  "village_idiot"
   ],
   "#eachnightstartown": [
 	  "flowergirl",
