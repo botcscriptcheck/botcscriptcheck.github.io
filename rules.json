@@ -338,5 +338,13 @@
 	"present": [["legion"], ["slayer"]],
 	"missing": [["scarletwoman", "scarlet_woman", "recluse", "tinker", "harpy"]],
 	"warning": "A Slayer shot that doesn't end the game confirms Legion."
+  },
+  {
+    "present": [["engineer"], ["baron"]],
+    "warning": "Engineer can choose useless minion after setup"
+  },
+  {
+    "present": [["philosopher"], ["village_idiot", "villageidiot"]],
+    "warning": "Village idiot is nearly always the strongest role for philosopher"
   }
  ]
