@@ -306,11 +306,12 @@
     "poisoner",
     "scarlet_woman",
     "spy",
-	  "boomdandy",
-	  "goblin",
-	  "devilsadvocate",
-  	"pithag",
-	  "scarletwoman"
+    "boomdandy",
+    "goblin",
+    "devilsadvocate",
+    "pithag",
+    "scarletwoman",
+    "xaan"
   ],
   "#ondeathminions": [
     "boomdandy",
