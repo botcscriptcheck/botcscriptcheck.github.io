@@ -298,8 +298,12 @@
     "warning": "The Mezepheles may be resurrected, causing another player to become evil."
   },
   {
-    "present": [["#musthide", "magician"], ["evil_twin", "eviltwin"]],
-    "warning": "Damsel, Heretic, Choirboy, and Magician cannot be the Good Twin."
+    "present": [["#musthide", "magician", "golem"], ["evil_twin", "eviltwin"]],
+    "warning": "Damsel, Heretic, Golem, Choirboy, and Magician cannot be the Good Twin."
+  },
+  {
+    "present": [["golem"], ["evil_twin", "eviltwin"]],
+    "warning": "Golem can kill either Twin by nominating them, making the Evil Twin useless."
   },
   {
     "present": [["psychopath", "vizier"], ["town_crier", "towncrier"]],
