@@ -95,7 +95,7 @@
 	"error": "You can not have a Huntsman without a Damsel."
   },
   {
-    "present": [["#startminions"]],
+    "present": [["#startminion"]],
     "count": {
       "characters": [".minion"],
       "lt": 5
