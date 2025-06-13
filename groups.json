@@ -470,5 +470,11 @@
 	  "lil_monsta",
 	  "wizard",
    "hermit"
-	]
+	],
+  "#startminion": [
+   "lilmonsta",
+   "lil_monsta",
+   "lordoftyphon",
+   "lord_of_typhon"
+  ]
 }
