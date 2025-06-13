@@ -100,7 +100,7 @@
       "characters": [".minion"],
       "lt": 5
     },
-    "warning": "Scripts with Lil' Monsta are recommended to have at least 5 Minions, for base 3 Minion games"
+    "warning": "Scripts with Lil' Monsta or Lord of Typhon are recommended to have at least 5 Minions, for base 3 Minion games"
   },
   {
 	"count": {
