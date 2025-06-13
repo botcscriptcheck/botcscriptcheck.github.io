@@ -95,7 +95,7 @@
 	"error": "You can not have a Huntsman without a Damsel."
   },
   {
-    "present": [["lil_monsta", "lilmonsta"]],
+    "present": [["#startminions"]],
     "count": {
       "characters": [".minion"],
       "lt": 5
@@ -194,7 +194,8 @@
         "moonhchild",
         "goon",
         "politician",
-		    "fanggu"
+		     "fanggu",
+        "hermit"
       ]
     ],
     "warning": "No hidden Outsiders or reason for the Outsiders to hide."
@@ -338,5 +339,9 @@
 	"present": [["legion"], ["slayer"]],
 	"missing": [["scarletwoman", "scarlet_woman", "recluse", "tinker", "harpy"]],
 	"warning": "A Slayer shot that doesn't end the game confirms Legion."
+  },
+  {
+  "present": [["hermit"], ["drunk"]],
+  "error": "A script with the Hermit and the Drunk will cause issues for inexperienced storytellers."
   }
  ]
