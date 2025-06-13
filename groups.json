@@ -86,16 +86,17 @@
     "drunk",
     "golem",
     "goon",
-  	"hatter",
+   	"hatter",
     "heretic",
+    "hermit",
     "klutz",
     "lunatic",
     "moonchild",
     "mutant",
-	  "plague_doctor",
-	  "plaguedoctor",
+	   "plague_doctor",
+	   "plaguedoctor",
     "politician",
-	  "puzzlemaster",
+  	  "puzzlemaster",
     "recluse",
     "saint",
     "snitch",
@@ -223,7 +224,8 @@
     "fanggu",
     "kazali",
     "lordoftyphon",
-    "xaan"
+    "xaan",
+    "heretic"
  ],
   "#protection": [
     "monk",
@@ -254,7 +256,8 @@
     "assassin",
     "shabaloth",
     "po",
-    "acrobat"
+    "acrobat",
+    "hermit"
   ],
   "#coversextranightdeaths": [
     "legion",
@@ -285,14 +288,16 @@
     "politician",
 	  "fanggu",
 	  "cultleader",
-    "ogre"
+    "ogre",
+   "hermit"
   ],
   "#extraevils": ["#startingextraevils", "#convertextraevils"],
   "#musthide": [
 	  "heretic", 
 	  "damsel", 
 	  "actor_china", 
-	  "choirboy"
+	  "choirboy",
+    "hermit"
 	],
   "#quietminions": [
     "assassin",
@@ -323,7 +328,8 @@
     "pixie",
   	"cerenovus",
 	  "mutant",
-	  "harpy"
+	  "harpy",
+,  "hermit"
   ],
   "#winloss": [
     "mastermind",
@@ -341,7 +347,8 @@
 	  "boomdandy",
     "eviltwin",
 	  "cultleader",
-    "alsaahir"
+    "alsaahir",
+    "hermit"
   ],
   "#onnightdeath": [
 	  "ravenkeeper",
@@ -461,6 +468,7 @@
 	  "leviathan",
 	  "lilmonsta",
 	  "lil_monsta",
-	  "wizard"
+	  "wizard",
+   "hermit"
 	]
 }
