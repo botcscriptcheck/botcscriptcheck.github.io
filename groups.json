@@ -1,6 +1,6 @@
 {
   ".townsfolk": [
-    "actor_china",
+	"actor_china",
     "alchemist",
     "amnesiac",
     "artist",
@@ -80,23 +80,23 @@
     "acrobat"
   ],
   ".outsider": [
-    "barber",
+	"barber",
     "butler",
     "damsel",
     "drunk",
     "golem",
     "goon",
-   	"hatter",
+    "hatter",
     "heretic",
     "hermit",
     "klutz",
     "lunatic",
     "moonchild",
     "mutant",
-	"plague_doctor",
-	"plaguedoctor",
+    "plague_doctor",
+    "plaguedoctor",
     "politician",
-  	"puzzlemaster",
+    "puzzlemaster",
     "recluse",
     "saint",
     "snitch",
@@ -294,7 +294,8 @@
 	"heretic", 
 	"damsel", 
 	"actor_china", 
-	"choirboy"
+	"choirboy",
+	"magician"
 	],
   "#quietminions": [
     "assassin",
