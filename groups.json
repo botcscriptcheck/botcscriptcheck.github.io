@@ -137,7 +137,8 @@
 	"summoner",
 	"boffin",
 	"xaan",
-	"wizard"
+	"wizard",
+ "wraith"
   ],
   ".demon": [
    	"al-hadikhia",
@@ -182,7 +183,8 @@
 	"thief",
 	"voudon",
 	"bonecollector",
-    "gnome"
+    "gnome",
+ "cacklejack"
   ],
 	
   "#gooddrunker": [
@@ -317,7 +319,8 @@
     "devilsadvocate",
     "pithag",
     "scarletwoman",
-    "xaan"
+    "xaan",
+    "wraith"
   ],
   "#ondeathminions": [
     "boomdandy",
@@ -371,7 +374,8 @@
 	"engineer",
 	"hatter",
 	"plaguedoctor",
-	"plague_doctor"
+	"plague_doctor",
+ "cacklejack"
   ],
   "#firstnighttown": [
 	"steward",
